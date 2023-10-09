@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css';
 import Home from './views/Home/Home';
 import About from './views/About/About';
@@ -8,7 +9,7 @@ import Blocks from './views/Blocks/Blocks';
 import Review from './views/Review/Review';
 import Userlogin from './views/Userlogin/Userlogin';
 import Services from './views/Services/Services';
-import reportWebVitals from './reportWebVitals';
+
 
 const router = createBrowserRouter([
   {
