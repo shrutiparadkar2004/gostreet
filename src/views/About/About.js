@@ -6,7 +6,7 @@ function About() {
         <>
 
             <div>
-                About Page
+                
             </div>
 
         </>
