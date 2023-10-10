@@ -7,11 +7,12 @@
     display: inline-block;
     color:aliceblue;
     margin-right:670px;
+    margin-left: 20px;
 }
 
 .nav-menu{
     display:inline-block;
     color:white;
-    margin-right: 100px;
+    margin-right:100px;
     margin:0px 10px;
 }

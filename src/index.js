@@ -6,7 +6,7 @@ import './index.css';
 import Home from './views/Home/Home';
 import About from './views/About/About';
 import Adminlogin from './views/Adminlogin/Adminlogin';
-import Blocks from './views/Blocks/Blocks';
+import Blocks from './views/Blog/Blog';
 import Review from './views/Review/Review';
 import Userlogin from './views/Userlogin/Userlogin';
 import Services from './views/Services/Services';
