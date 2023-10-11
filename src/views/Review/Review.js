@@ -6,7 +6,7 @@ function Review() {
         <>
 
             <div>
-                Review Page
+               <h1>This is Review Page...</h1>
             </div>
 
         </>

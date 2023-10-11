@@ -18,10 +18,10 @@
      )
  }
  
- export default Home
+//  export default Home
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
 
 
 import "./Home.css";
