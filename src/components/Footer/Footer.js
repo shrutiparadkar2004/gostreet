@@ -110,16 +110,9 @@ export default function Footer(){
                     @{new Date().getFullYear()} Website Created By GoStreet Team.
                 </ p>
            </div>
-
-           {/* <div className="footer-below-links">
-               <a href="/terms"><div><p>Terms & Conditions</p></div></a>
-               <a href="/privacy"><div><p>Privacy</p></div></a>
-               <a href="/security"><div><p>Security</p></div></a>
-               <a href="/cookie"><div><p>Cookie Declaration</p></div></a>
-           </div> */}
           </div>
-
-        </div>
+          
+         </div>
         </div>
      </>
     )

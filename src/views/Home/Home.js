@@ -9,13 +9,10 @@ import React from 'react';
      return (
          <>
            <Navbar/>
+     
+           <h1 className="body-div">Home Page</h1>
 
- 
-             <div>
-                 Home Page
-             </div>
-
-             <Servicecard/>
+             <Footer/>
  
          </>
      )
