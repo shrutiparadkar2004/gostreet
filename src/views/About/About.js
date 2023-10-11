@@ -4,7 +4,7 @@ import Footer from "./../../components/footer/footer";*/
 
 import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
-import "./about.css";
+import "./About.css";
 
 const About = () => {
   const [aboutData] = useState(howToUseApp);
