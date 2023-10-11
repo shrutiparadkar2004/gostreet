@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Blocks.css';
-function Blocks() {
+import './Blog.css';
+function Blog() {
     return (
         <>
 
             <div>
-                Blocks Page
+                Blog Page
             </div>
 
         </>
     )
 }
 
-export default Blocks
+export default Blog
