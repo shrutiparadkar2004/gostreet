@@ -1,8 +1,10 @@
-
+/*import "./about.css";
+import Navbar from "./../../components/navbar/navbar";
+import Footer from "./../../components/footer/footer";*/
 
 import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
-// import "./about.css";
+import "./about.css";
 
 const About = () => {
   const [aboutData] = useState(howToUseApp);
@@ -73,7 +75,7 @@ const About = () => {
 
               <br />
               <button className="btn-style btn-style-border">learn more</button>
-            </div>
+              </div>
 
             {/* images section  */}
             <div className="col-12 col-lg-5  our-service-rightside-img">
