@@ -12,7 +12,11 @@ export default function Home()
         <>
         <div className="home-container">
             <Navbar/>
-            
+        
+    <div className="body-div">
+
+    </div>
+
            
             <Footer/>
         </div>
