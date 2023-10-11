@@ -16,7 +16,7 @@ import Services from './views/Services/Services';
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <Home/>,
   },
   {
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     element: <Review/>,
   },
   {
-    path:"/",
+    path:"/service",
     element: <Services/>,
   },
   {
