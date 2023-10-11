@@ -3,16 +3,21 @@ import {Link} from "react-router-dom";
 
 export default function Navbar(){
     return(
-        <div className="navbar">
-            <h2 className="nav-brand">RenTrip</h2>
-            <Link className="nav-menu"  to="/">Home</Link>
-            <Link className="nav-menu"  to="/About">About</Link>
-            <Link className="nav-menu"  to="/Adminlogin">Adminlogin</Link>
-            <Link className="nav-menu"  to="/Blog">Blog</Link>
-            <Link className="nav-menu"  to="/Review">Review</Link>
-            <Link className="nav-menu"  to="/Userlogin">Userlogin</Link>
-            <Link className="nav-menu"  to="/Services">Services</Link>
-            
-        </div>
+       <div>
+        <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+</div>
     )
 }
