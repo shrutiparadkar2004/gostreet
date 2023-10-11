@@ -14,8 +14,8 @@ import React from 'react';
              <div>
                  Home Page
              </div>
-           <Footer/>
-             
+
+             <Servicecard/>
  
          </>
      )

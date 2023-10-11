@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Servicedata from './../../configs/Service-Data.json';
 import Servicecard from './../../components/Servicecard/Servicecard';
 
 import './Services.css';
+import { useState } from 'react';
 function Services() {
+
+  const [ card, setCard] = useState(Servicedata);
+  const [search, setSearch] = useState('');
+
+
+  useEffect(()=>{
+    const filterCard = Servicedata.filter((obj)=>{
+      const name = obj.name.toLowerCase();
+      const userinput = search.toLowerCase();
+
+      return (name.includes(userinput) )
+
+      
+    });
+   
+    setCard(filterCard);
+     
+  }, [search]);
+  
+
   return (
     <>
 
@@ -55,9 +76,22 @@ function Services() {
   
  </div>
 
+ <div>
+
+<input type='text' 
+className='input-search1'
+placeholder='search'
+value={search}
+onChange={(e)=>{
+  setSearch(e.target.value);
+}}
+/>
+
+ </div>
+
       <div className="container-main">
         {
-         Servicedata.map((Service, index) => (
+         card.map((Service, index) => (
           <Servicecard
           key={index}
             name={Service.name}
