@@ -7,6 +7,11 @@
      return (
          <>
            <Navbar/>
+     
+           <h1 className="body-div">Home Page</h1>
+
+
+             <Footer/>
 
            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -69,6 +74,7 @@
             <h5><p>Now everything is under control <br></br>you even choose your driver <br></br>based on their rating and on <br></br>other passenger's feedback.</p></h5>
        </div>
      </div>
+
 
  
 </div>
