@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Adminlogin.css';
 import { Link, } from 'react-router-dom';
 import Navbar from "./../../components/Navbar/Navbar";
-
+import Footer from "./../../components/Footer/Footer";
  
 
 function Adminlogin() {
@@ -51,7 +51,7 @@ return (
         </form>
 
         </div>
-    
+    <Footer/>
   </>
 )
 }
