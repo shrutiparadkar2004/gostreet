@@ -24,7 +24,7 @@ import Footer from '../../components/Footer/Footer';
       <h1 className='heading'>Vehicle Review</h1>
       <div className='in-container'>
         {/* <h2>Add Vehicle</h2> */}
-        {/* <input
+        <input
           type="text"
           placeholder="Make"
           value={newVehicle.make}
@@ -55,7 +55,7 @@ import Footer from '../../components/Footer/Footer';
           onChange={(e) => setNewVehicle({ ...newVehicle, review: e.target.value })}
         />
         <button onClick={addVehicle} >Add</button>
-      </div> */}
+      </div>
 
       {vehicles.map((vehicle, index) => (
         <div key={index}>
