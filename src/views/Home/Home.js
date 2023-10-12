@@ -1,48 +1,28 @@
+import React from 'react';
 
- 
- import React from 'react';
  import ReactDOM from 'react-dom/client';
- import Servicecard from './../../components/Servicecard/Servicecard';
+ import Navbar from "./../../components/Navbar/Navbar";
+ import Footer from "./../../components/Footer/Footer";
+ 
  import './Home.css';
  function Home() {
      return (
          <>
+           <Navbar/>
+
  
              <div>
                  Home Page
              </div>
-
-             <Servicecard/>
+           <Footer/>
+             
  
          </>
      )
  }
  
-//  export default Home
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+export default Home;
 
 
-import "./Home.css";
-import Navbar from "./../../components/Navbar/Navbar";
-import Footer from "./../../components/Footer/Footer";
 
-export default function Home()
-{
-    return (
-        <>
-        <div className="home-container">
-            <Navbar/>
-        
-    <div className="body-div">
-
-    </div>
-
-           
-            <Footer/>
-        </div>
-        </>
-    )
-}
 

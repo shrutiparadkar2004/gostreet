@@ -1,10 +1,8 @@
-/*import "./about.css";
-import Navbar from "./../../components/navbar/navbar";
-import Footer from "./../../components/footer/footer";*/
+
 
 import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
-import "./about.css";
+// import "./about.css";
 
 const About = () => {
   const [aboutData] = useState(howToUseApp);
