@@ -1,14 +1,15 @@
 // import "./Navbar.css";
 import {Link} from "react-router-dom";
+import "./rentrip.avif";
 
 export default function Navbar(){
-    return(
+    return(<>
        <div>
        <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="rentrip.avif" alt="Logo" width="30" 
+      <img src="rentrip.avif" alt=" " width="30" 
       height="24" class="d-inline-block align-text-top"/>
       
     </a>
@@ -51,6 +52,6 @@ export default function Navbar(){
     </div>
   </div>
   </nav>
-</div>
+</div></>
     )
 }
