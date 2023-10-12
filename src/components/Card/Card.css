@@ -19,18 +19,18 @@
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
-}
+  }
 
   .info{
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
   }
   .readbtn{
     width: 130px;
     color: white;
     display: block;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-bottom: 0px;
     background-color:red;
     padding: 7px;
     text-align: center;
@@ -39,7 +39,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-size: 20px;
     cursor: pointer;
-
+    
   }
 
   @media screen and (max-width: 768px) {
