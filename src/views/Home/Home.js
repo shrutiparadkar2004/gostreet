@@ -18,5 +18,8 @@ import React from 'react';
      )
  }
  
- export default Home
+export default Home;
+
+
+
 
