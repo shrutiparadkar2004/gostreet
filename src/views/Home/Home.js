@@ -7,6 +7,11 @@
      return (
          <>
            <Navbar/>
+     
+           <h1 className="body-div">Home Page</h1>
+
+
+             <Footer/>
 
            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -89,6 +94,7 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div> */}
+
 
  
 </div>

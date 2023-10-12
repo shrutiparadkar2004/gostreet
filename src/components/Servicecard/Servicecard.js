@@ -19,8 +19,8 @@ turmscondition}){
             <h3 className="heading-card">{name}</h3>
             <h3> RS <span>₹{price}</span> <span className="unit-card">per/hr</span> </h3>
 
-            <button className="btn-card">view Details </button>
-            <button className="btn-card">By Now </button>
+            {/* <button className="">view Details </button>
+            <button className="">By Now </button> */}
         </div>
         
     );
