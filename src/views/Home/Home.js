@@ -1,21 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
+ import ReactDOM from 'react-dom/client';
+ import Navbar from "./../../components/Navbar/Navbar";
+ import Footer from "./../../components/Footer/Footer";
+ 
+ import './Home.css';
+ function Home() {
+     return (
+         <>
+           <Navbar/>
+     
+           <h1 className="body-div">Home Page</h1>
 
-import "./Home.css";
-import Navbar from "./../../components/Navbar/Navbar";
-import Footer from "./../../components/Footer/Footer";
+             <Footer/>
+ 
+         </>
+     )
+ }
+ 
+ export default Home
 
-export default function Home()
-{
-    return (
-        <>
-        <div className="home-container">
-            <Navbar/>
-            
-           
-            <Footer/>
-        </div>
-        </>
-    )
-}

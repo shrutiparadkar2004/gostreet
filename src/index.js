@@ -2,6 +2,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import { Carousel } from 'bootstrap';
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 import './index.css';
 import Home from './views/Home/Home';
 import About from './views/About/About';
@@ -12,7 +18,6 @@ import Userlogin from './views/Userlogin/Userlogin';
 import Services from './views/Services/Services';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-
 
 
 const router = createBrowserRouter([
@@ -29,7 +34,7 @@ const router = createBrowserRouter([
     element: <Review/>,
   },
   {
-    path:"/services",
+    path:"/service",
     element: <Services/>,
   },
   {
@@ -55,6 +60,7 @@ const router = createBrowserRouter([
   path:"/footer",
   element: <Footer/>,
 },
+
 
 ]);
 
