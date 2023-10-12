@@ -8,6 +8,10 @@ function Card({ title, description, img }) {
        <img className='image' src={img} />
        <h4 className='title'>{title}</h4>
        <p className='info'>{description}</p>
+       <hr/>
+       <div>
+          <button className='btnn'>Read</button>
+       </div>
       </div>
       
     )

@@ -2,25 +2,50 @@
     width: 350px;
     padding: 10px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   }
   
   .image {
-    width: 320px;
+    width: 310px;
     display: block;
     margin: 0 auto;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 10px;
     border-radius: 10px; 
-    border: 0px solid grey;
+    border: 1px solid grey;
   }
   .title{
      text-align: center;
+     font-size: 28px;
+     font-weight: bold;
   }
 
   .info{
     text-align: center;
-    
+    font-size: 18px;
+  }
+  .btnn{
+    width: 110px;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color:red;
+    padding: 8px 7px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+
   }
 
+  @media screen and (max-width: 768px) {
+    .card-container{
+        width: 300px;
+    }
+    .image{
+        width: 300px;
+    }
+}
