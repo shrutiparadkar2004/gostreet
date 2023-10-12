@@ -35,6 +35,7 @@
 }
 .username{
   width: 325px;
+  height: 35px;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -44,6 +45,7 @@
 }
 .password{
   width: 325px;
+  height: 35px;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -65,7 +67,7 @@
   text-align: center;
  }
  .button{
-  margin-left: 65px;
+  
  }
  .message{
   text-align: center;
