@@ -1,3 +1,11 @@
+
+.body-div{
+    height: 700px;
+    background-color: antiquewhite;
+ }
+
+ 
+
 .text{
     text-align: center;
 }
@@ -20,3 +28,4 @@
     transition: all 0.3s ease-in-out;
 }
 .merge{margin:10px;}
+
