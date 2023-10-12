@@ -3,20 +3,20 @@ import './Review.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
-function VehicleReviewPage() {
-  const [vehicles, setVehicles] = useState([]);
-  const [newVehicle, setNewVehicle] = useState({ make: '', model: '', year: '', price: '', review: '' });
+// function VehicleReviewPage() {
+//   const [vehicles, setVehicles] = useState([]);
+//   const [newVehicle, setNewVehicle] = useState({ make: '', model: '', year: '', price: '', review: '' });
 
-  const addVehicle = () => {
-    setVehicles([...vehicles, newVehicle]);
-    setNewVehicle({ make: '', model: '', year: '', price: '', review: '' });
-  };
+//   const addVehicle = () => {
+//     setVehicles([...vehicles, newVehicle]);
+//     setNewVehicle({ make: '', model: '', year: '', price: '', review: '' });
+//   };
 
-  const deleteVehicle = (index) => {
-    const updatedVehicles = [...vehicles];
-    updatedVehicles.splice(index, 1);
-    setVehicles(updatedVehicles);
-  };
+//   const deleteVehicle = (index) => {
+//     const updatedVehicles = [...vehicles];
+//     updatedVehicles.splice(index, 1);
+//     setVehicles(updatedVehicles);
+//   };
 
   return (
     <div>
@@ -24,7 +24,7 @@ function VehicleReviewPage() {
       <h1 className='heading'>Vehicle Review</h1>
       <div className='in-container'>
         {/* <h2>Add Vehicle</h2> */}
-        <input
+        {/* <input
           type="text"
           placeholder="Make"
           value={newVehicle.make}
@@ -55,7 +55,7 @@ function VehicleReviewPage() {
           onChange={(e) => setNewVehicle({ ...newVehicle, review: e.target.value })}
         />
         <button onClick={addVehicle} >Add</button>
-      </div>
+      </div> */}
 
       {vehicles.map((vehicle, index) => (
         <div key={index}>
