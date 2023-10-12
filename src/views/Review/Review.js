@@ -3,20 +3,20 @@ import './Review.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
-// function VehicleReviewPage() {
-//   const [vehicles, setVehicles] = useState([]);
-//   const [newVehicle, setNewVehicle] = useState({ make: '', model: '', year: '', price: '', review: '' });
+function VehicleReviewPage() {
+  const [vehicles, setVehicles] = useState([]);
+  const [newVehicle, setNewVehicle] = useState({ make: '', model: '', year: '', price: '', review: '' });
 
-//   const addVehicle = () => {
-//     setVehicles([...vehicles, newVehicle]);
-//     setNewVehicle({ make: '', model: '', year: '', price: '', review: '' });
-//   };
+  const addVehicle = () => {
+    setVehicles([...vehicles, newVehicle]);
+    setNewVehicle({ make: '', model: '', year: '', price: '', review: '' });
+  };
 
-//   const deleteVehicle = (index) => {
-//     const updatedVehicles = [...vehicles];
-//     updatedVehicles.splice(index, 1);
-//     setVehicles(updatedVehicles);
-//   };
+  const deleteVehicle = (index) => {
+    const updatedVehicles = [...vehicles];
+    updatedVehicles.splice(index, 1);
+    setVehicles(updatedVehicles);
+  };
 
   return (
     <div>
