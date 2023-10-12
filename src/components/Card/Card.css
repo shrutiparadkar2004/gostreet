@@ -1,0 +1,26 @@
+.card-container {
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .image {
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px; 
+    border: 0px solid grey;
+  }
+  .title{
+     text-align: center;
+  }
+
+  .info{
+    text-align: center;
+    
+  }
+
