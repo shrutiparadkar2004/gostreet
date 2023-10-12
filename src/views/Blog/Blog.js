@@ -11,7 +11,7 @@ function Blog() {
             title: 'CheckEnv: Fast Detection of RPC Calls Between Environments Powered by Graphs',
             description : 'Uber consists of a large number of loosely coupled microservices that interact with each other through remote procedure calls (RPCs). These RPC calls serve as the communication mechanism between services, allowing them to exchange data and invoke specific actions. The complex nature of the call chain, combined with the involvement of numerous services.',
             img:'https://blog.uber-cdn.com/cdn-cgi/image/width=2048,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/09/Cover.jpg'
-        },
+        }
 
     ]);
     return (
