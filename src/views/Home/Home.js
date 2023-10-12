@@ -15,7 +15,9 @@ import React from 'react';
                  Home Page
              </div>
 
-             <Servicecard/>
+             {/* <Servicecard/> */}
+
+             <Footer/>
  
          </>
      )
