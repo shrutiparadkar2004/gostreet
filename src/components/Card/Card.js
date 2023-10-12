@@ -6,11 +6,11 @@ function Card({ title, description, img }) {
 
      <div className='card-container'>
        <img className='image' src={img} />
-       <h4 className='title'>{title}</h4>
+       <span className='title'>{title}</span>
        <p className='info'>{description}</p>
        <hr/>
        <div>
-          <button className='btnn'>Read</button>
+          <button className='readbtn'>Read More</button>
        </div>
       </div>
       

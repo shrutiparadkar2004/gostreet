@@ -16,7 +16,7 @@
     border: 1px solid grey;
   }
   .title{
-     text-align: center;
+    text-align: start;
      font-size: 28px;
      font-weight: bold;
   }
@@ -25,8 +25,8 @@
     text-align: center;
     font-size: 18px;
   }
-  .btnn{
-    width: 110px;
+  .readbtn{
+    width: 130px;
     color: black;
     display: block;
     margin: 0 auto;
@@ -35,9 +35,10 @@
     padding: 8px 7px;
     text-align: center;
     border-radius: 10px;
-    border: 0.5px solid gray;
+    border: 1px solid gray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-size: 20px;
+    cursor: pointer;
 
   }
 
