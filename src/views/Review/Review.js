@@ -70,4 +70,4 @@ function VehicleReviewPage() {
   );
 }
 
-// export default VehicleReviewPage;
+export default VehicleReviewPage;
