@@ -9,13 +9,8 @@ import React from 'react';
      return (
          <>
            <Navbar/>
-
- 
-             <div>
-                 Home Page
-             </div>
-
-             {/* <Servicecard/> */}
+     
+           <h1 className="body-div">Home Page</h1>
 
              <Footer/>
  
@@ -23,5 +18,8 @@ import React from 'react';
      )
  }
  
- export default Home
+export default Home;
+
+
+
 

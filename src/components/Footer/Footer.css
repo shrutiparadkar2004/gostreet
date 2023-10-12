@@ -1,7 +1,7 @@
 .title{
     padding-left: 70px;
     padding-top: 15px;
-    color: white;
+    color:black;
   }
 
 .section_padding{
@@ -9,7 +9,7 @@
 }
 
 .footer{
-  background-color: #2d2d32;
+  background-color:darkgray;
 }
 
 .footer{
@@ -34,11 +34,11 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  color: white;
+  color: black;
 }
 
 a{
-  color: rgb(175, 175, 179);
+  color:white;
   text-decoration: none;
 }
 
@@ -90,14 +90,14 @@ a{
 }
 
 hr{
-  color:white !important;
+  color:black;
   width:100%;
 }
 
 .footer-copyright p{
-   font-size: 13px;
+   font-size: 17px;
    line-height: 15px;
-   color: rgb(255,255,255);
+   color:black;
    font-weight: 600;
    
 }
@@ -110,7 +110,7 @@ hr{
 }
 
 @media screen and (max-width: 550px){
-  .sub_footer-heading h1{
+  .footer-heading h1{
     font-size: 34px;
     line-height: 42px;
   }
@@ -148,5 +148,5 @@ hr{
 }
 
 .footerbelow{
-  padding-left:500px ;
+  padding-left:470px ;
 }
