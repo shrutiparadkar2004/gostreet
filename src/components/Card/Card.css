@@ -1,5 +1,5 @@
 .card-container {
-    width: 350px;
+    width: 400px;
     padding: 10px;
     margin: 20px;
     border-radius: 15px;
@@ -7,32 +7,32 @@
   }
   
   .image {
-    width: 310px;
+    width: 350px;
     display: block;
     margin: 0 auto;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 10px;
     border-radius: 10px; 
     border: 1px solid grey;
   }
-  .title{
-    text-align: start;
-     font-size: 28px;
-     font-weight: bold;
-  }
+  .name{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
 
   .info{
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
   }
   .readbtn{
     width: 130px;
-    color: black;
+    color: white;
     display: block;
     margin: 0 auto;
     margin-top: 15px;
     background-color:red;
-    padding: 8px 7px;
+    padding: 7px;
     text-align: center;
     border-radius: 10px;
     border: 1px solid gray;

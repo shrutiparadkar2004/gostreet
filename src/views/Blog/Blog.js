@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer';
 import Card from './../../components/Card/Card';
 import './Blog.css';
 function Blog() {
-    const [blog ,setBlog]=useState( [
+    const [blog ,setBlog] = useState( [
         {
             title: 'CheckEnv: Fast Detection of RPC Calls Between Environments Powered by Graphs',
             description : 'Uber consists of a large number of loosely coupled microservices that interact with each other through remote procedure calls (RPCs). These RPC calls serve as the communication mechanism between services, allowing them to exchange data and invoke specific actions. The complex nature of the call chain, combined with the involvement of numerous services.',
@@ -27,21 +27,19 @@ function Blog() {
     return (
         <>
        <Navbar/>
-       <div>
-         <div className='content'>
+       <div className='content'>
          {
             blog.map((blog,index)=>{
                 const {title,description,img}=blog;
                 
                 return (<Card 
                         key={index} 
+                        title={title} 
                          img={img} 
-                         title={title} 
-                         description={description} />)
+                          description={description} />)
                       })
          }
        </div>
-      </div>
      <Footer/>
 
         </>
