@@ -9,17 +9,17 @@ import React from 'react';
      return (
          <>
            <Navbar/>
+     
+           <h1 className="body-div">Home Page</h1>
 
- 
-             <div>
-                 Home Page
-             </div>
-           <Footer/>
-             
+             <Footer/>
  
          </>
      )
  }
  
- export default Home
+export default Home;
+
+
+
 
