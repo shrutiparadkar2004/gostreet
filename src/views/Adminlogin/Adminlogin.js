@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Adminlogin.css';
 import { Link, } from 'react-router-dom';
+import Navbar from "./../../components/Navbar/Navbar";
+import Footer from "./../../components/Footer/Footer";
+ 
 
 function Adminlogin() {
 
@@ -13,6 +16,7 @@ function Adminlogin() {
 
 return (
   <>
+  <Navbar/>
    <div class="contanier">
         <h1 className='title' onClick={popup}> Sign Up</h1>
         <form>
@@ -35,7 +39,7 @@ return (
                <input className='password'/>
             </div>
             <br/>
-            <div className='button'>
+            <div >
             <button class="register-btn"> Sign Up</button>
             </div>
 
@@ -47,7 +51,7 @@ return (
         </form>
 
         </div>
-
+    <Footer/>
   </>
 )
 }
