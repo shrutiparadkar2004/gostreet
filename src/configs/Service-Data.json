@@ -9,7 +9,7 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"asdfgh",
+        "name":"Bricza",
         "image" : " ",
         "author" : "kk",
         "price" : "30 per/km",
@@ -18,7 +18,7 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"Swe",
+        "name":"Necza",
         "image" : " ",
         "author" : "kk",
         "price" : "30 per/km",
@@ -27,7 +27,7 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"Swift Desire",
+        "name":"Fortuner",
         "image" : " ",
         "author" : "kk",
         "price" : "30 per/km",
@@ -36,7 +36,7 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"Swife",
+        "name":"Scorpio",
         "image" : " ",
         "author" : "kk",
         "price" : "30 per/km",
@@ -45,7 +45,7 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"Swift Desire",
+        "name":"Renautl",
         "image" : " ",
         "author" : "kk",
         "price" : "30 per/km",
@@ -54,7 +54,7 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"Swift Desire",
+        "name":"BMW",
         "image" : " ",
         "author" : "kk",
         "price" : "30 per/km",
@@ -63,10 +63,19 @@
         "turmscondition" : " asdfghjk "
     },
     {
-        "name":"Swift Desire",
+        "name":"Tata Nano",
         "image" : " ",
         "author" : "kk",
-        "price" : "30 per/km",
+        "price" : "10 per/km",
+        "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
+        "drivename"  : "ghk",
+        "turmscondition" : " asdfghjk "
+    },
+    {
+        "name":"Safari",
+        "image" : " ",
+        "author" : "kk",
+        "price" : "10 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
         "drivename"  : "ghk",
         "turmscondition" : " asdfghjk "
