@@ -107,7 +107,7 @@ export default function Footer(){
           <div className="footer-below">
             <div className="footer-copyright">
                 <p className="footerbelow">
-                    @{new Date().getFullYear()} Website Created By GoStreet Team.
+                    @{new Date().getFullYear()}Website Created By GoStreet Team.
                 </ p>
            </div>
           </div>

@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
-import './Adminlogin.css';
-import Navbar from "./../../components/Navbar/Navbar";
-import Footer from "./../../components/Footer/Footer";
+  import React, { useState } from 'react';
+  import { Link, useNavigate } from 'react-router-dom';
+  import showToast from "crunchy-toast";
+  import './Adminlogin.css';
+  import Navbar from "./../../components/Navbar/Navbar";
+  import Footer from "./../../components/Footer/Footer";
 
-import { Link, useNavigate } from 'react-router-dom';
-import showToast from 'crunchy-toast';
+    <Navbar/>
+
+// import { Link, useNavigate } from 'react-router-dom';
+// import showToast from 'Crunchy-toast';
 
 function Adminlogin() {
   const [email, setEmail] = useState('');
@@ -55,7 +59,7 @@ function Adminlogin() {
 
 return (
   <>
-  <Navbar/>
+  {/* <Navbar/> */}
    <div class="contanier">
         <h1 className='title' onClick={popup}> Sign Up</h1>
         <form>
@@ -90,7 +94,7 @@ return (
         </form>
 
         </div>
-    <Footer/>
+    {/* <Footer/> */}
   </>
 )
 }
@@ -160,5 +164,7 @@ return (
   </>
 )
 }
+
+     <Footer/>
 
 export default Adminlogin

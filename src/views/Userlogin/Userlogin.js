@@ -1,3 +1,6 @@
+import React , {useState} from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 /*import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Userlogin.css';
@@ -13,7 +16,9 @@ function Userlogin() {
     )
 }*/
 
-import React , {useState} from "react";
+//import React , {useState} from "react";
+
+      <Navbar/>
 import "./Userlogin.css"
 
 const Userlogin = () => {
@@ -46,5 +51,7 @@ const Userlogin = () => {
     </div>
     )
 }
+
+     <Footer/>
 
 export default Userlogin

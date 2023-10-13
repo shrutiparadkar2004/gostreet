@@ -1,8 +1,9 @@
-/*import "./about.css";
-import Navbar from "./../../components/navbar/navbar";
-import Footer from "./../../components/footer/footer";*/
 
-import React, { useState } from "react";
+// import "./about.css";
+  //import Navbar from "./../../components/Navbar/Navbar";
+  //import Footer from "./../../components/Footer/Footer";
+
+ import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
 import "./About.css";
 

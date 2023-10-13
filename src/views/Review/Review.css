@@ -1,0 +1,26 @@
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    color:cadetblue;
+}
+
+.in-container{
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width: 400px;
+    background-color:bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+   
+}
+
+.in-container input{
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+

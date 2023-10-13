@@ -1,10 +1,9 @@
 .text-h{
-    height: 70px;
     text-align: center;
     background-color: black;
     color: white;
-    /* font-size: 30px; */
-     padding-top: 8px;  
+    font-size: 50px;
+     padding: 7px 7px;  
 }
 
 /* .text-box{
@@ -25,3 +24,4 @@
     transition: all 0.3s ease-in-out;
 }
 .merge{margin:10px;}
+
