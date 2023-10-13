@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Adminlogin.css';
+import Navbar from "./../../components/Navbar/Navbar";
+import Footer from "./../../components/Footer/Footer";
 
 import { Link, useNavigate } from 'react-router-dom';
 import showToast from 'crunchy-toast';
@@ -36,9 +38,9 @@ function Adminlogin() {
       showToast('Invalid Email ID and Password', 'warning', 3000);
     }
   };
-import { Link, } from 'react-router-dom';
-import Navbar from "./../../components/Navbar/Navbar";
-import Footer from "./../../components/Footer/Footer";
+// import { Link, } from 'react-router-dom';
+// import Navbar from "./../../components/Navbar/Navbar";
+// import Footer from "./../../components/Footer/Footer";
  
 
 function Adminlogin() {

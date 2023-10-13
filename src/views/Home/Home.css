@@ -1,14 +1,19 @@
-.text{
+.text-h{
+    height: 70px;
     text-align: center;
+    background-color: black;
+    color: white;
+    /* font-size: 30px; */
+     padding-top: 8px;  
 }
 
-.text-box{
+/* .text-box{
     height:400px;
     width:1000px;
     background-color: aqua;
-    border-radius: 30px;
+    border-radius: 30px; */
     
-}
+/* } */
 
 .about-card{
     width: 300px;;

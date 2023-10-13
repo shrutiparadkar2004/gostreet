@@ -8,13 +8,13 @@
          <>
            <Navbar/>
      
-           <h1 className="body-div">Home Page</h1>
+           {/* <h1 className="body-div">Home Page</h1> */}
 
 
-             <Footer/>
+             
 
            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+          <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_805/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png" class="d-block w-100" alt="..." />
           </div>
@@ -25,17 +25,17 @@
             <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_778/v1677102595/assets/66/2853af-061f-4176-8c6b-f2ddef091599/original/UberIM_002309-%281%29.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button"                          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
+           <span class="visually-hidden">Previous</span>
+         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div><br></br><br></br>
 
-         <h1 className='text'> Why passengers choose us</h1> <br></br><br></br>
+         <h1 className='text-h'> Why passengers choose us</h1> <br></br><br></br>
 
         <div class="d-flex justify-content-evenly flex-wrap">
         <div class="text-center">
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-        <div class="text-center">
+         <div class="text-center">
          <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914597/assets/f7/7f583f-447a-4cf7-8da6-6ad254f0a66b/original/Intercity-150X150p4x.png' />
          <h2>GoStreet Car</h2><br></br>
        <div>
@@ -77,7 +77,7 @@
 
 
  
-</div>
+</div> 
 
              <Footer/>
          </>
