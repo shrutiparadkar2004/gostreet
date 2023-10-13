@@ -4,6 +4,9 @@ import Footer from "./../../components/footer/footer";*/
 
 import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
+import Navbar from "./../../components/Navbar/Navbar";
+import Footer from "./../../components/Footer/Footer";
+
 import "./About.css";
 
 const About = () => {

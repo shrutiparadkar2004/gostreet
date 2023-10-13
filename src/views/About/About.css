@@ -1,5 +1,6 @@
 .common-section {
   margin: 5rem 0;
+  background-color: #fff9e6;
 }
 
 .our-services img {
@@ -23,7 +24,7 @@
 .our-services .main-heading {
   font-weight: bolder;
   margin-left: 30px;
-  color: #33cc33;
+  color: #cc9900;
   font-size: 40px;
 }
 
@@ -69,7 +70,7 @@ button{
   cursor: pointer;
   background-color: black;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   transition: 0.5s;
 }
 button:hover{
