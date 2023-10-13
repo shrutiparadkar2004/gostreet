@@ -1,4 +1,27 @@
-.body-div{
-    height: 700px;
-    background-color: antiquewhite;
- }
+.text-h{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+     padding: 7px 7px;  
+}
+
+/* .text-box{
+    height:400px;
+    width:1000px;
+    background-color: aqua;
+    border-radius: 30px; */
+    
+/* } */
+
+.about-card{
+    width: 300px;;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius:  5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+.merge{margin:10px;}
+

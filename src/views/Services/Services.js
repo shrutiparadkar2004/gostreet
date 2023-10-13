@@ -50,7 +50,7 @@ function Services() {
         </button>
       </div>
 
- <h1> Our services </h1>
+ <h1> Our services </h1> 
 
  <div class="d-flex justify-content-evenly flex-wrap">
   <div class="text-center">

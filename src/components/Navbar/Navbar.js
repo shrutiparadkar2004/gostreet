@@ -1,15 +1,19 @@
-// import "./Navbar.css";
+import "./Navbar.css";
 import {Link} from "react-router-dom";
 
 export default function Navbar(){
-    return(
+    return(<>
        <div>
        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <div class="container-fluid  nav-color">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="rentrip.avif" alt="Logo" width="30" 
-      height="24" class="d-inline-block align-text-top"/>
+
+      {/* <img src="rentrip.avif" alt="Logo" width="30" /> */}
+       <h1 className="heading-main">GoStreet</h1>
+       {/* <img src="rentrip.avif" alt=" " width="30"  
+
+      height="24" class="d-inline-block align-text-top"/> */}
       
     </a>
   </div>
@@ -21,36 +25,40 @@ export default function Navbar(){
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link " href="Home">Home</a>
+          <a class="nav-link text-nav" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="About">About</a>
+          <a class="nav-link text-nav" href="/About">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Services">Services</a>
+          <a class="nav-link text-nav" href="/Services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Review">Review</a>
+          <a class="nav-link text-nav" href="/Review">Review</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Blog">Blog</a>
+          <a class="nav-link text-nav" href="/Blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Adminlogin">Adminlogin</a>
+          <a class="nav-link text-nav" href="/Adminlogin">Adminlogin</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Userlogin">Userlogin</a>
+          <a class="nav-link text-nav" href="/Userlogin">Userlogin</a>
         </li>
 
       </ul>
 
-      <form class="d-flex" role="search">
+      {/* <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-secondary" type="submit">Search</button>
-      </form>
+      </form> */}
     </div>
   </div>
   </nav>
+
 </div>
+{/* </div> */}
+</>
+
     )
 }
