@@ -44,7 +44,7 @@ export default function Footer(){
 
              <div className="footer-links_div">
                  <h4>Products</h4>
-                 <a href = "/ride">
+                 <a href = "/ride"  >
                       <p>Ride</p>
                  </a>
                  <a href = "/drive">
