@@ -8,7 +8,7 @@ import React , {useEffect, useState} from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 
 import './Userlogin.css';

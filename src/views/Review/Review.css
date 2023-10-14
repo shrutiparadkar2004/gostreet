@@ -1,7 +1,7 @@
 .heading{
     text-align: center;
     margin-top: 30px;
-    color:cadetblue;
+    color:rgb(252, 181, 0);
 }
 
 .in-container{
@@ -11,16 +11,39 @@
     text-align: center;
     width: 400px;
     background-color:bisque;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 6px 7px rgb(234, 192, 128);
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
    
 }
 
+.in-container button{
+    transform: scale(1);
+    transition: none;
+}
 .in-container input{
     padding: 8px;
     border-radius: 5px;
     margin: 10px;
+    text-align: left;
+    background-color:antiquewhite;
 }
 
+.review-output{
+    background-color: antiquewhite;
+    box-shadow: 0 0 4px 2px rgb(234, 196, 115);
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+}
 
+.review-output button{
+    width: 70px;
+    border-radius: 10px;
+}
+
+.review{
+    display: inline-block;
+}

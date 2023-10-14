@@ -1,23 +1,23 @@
    import React from "react";
    import "./Footer.css";
-   import GitHub from '../Footer/Images/github.jpeg';
-   import Linkedin from '../Footer/Images/linkedin.png';
-   import Facebook from '../Footer/Images/facebook.png';
-   import Twitter from '../Footer/Images/twitter.jpeg';
-   import Instagram from '../Footer/Images/insta.jpeg';
+   import GitHub from '../Footer/Images/github.png';
+   import Linkedin from '../Footer/Images/linkedin1.png';
+   import Facebook from '../Footer/Images/facebook1.png';
+   import Twitter from '../Footer/Images/twitter.png';
+   import Instagram from '../Footer/Images/instagram.png';
 
 export default function Footer(){
     return(
         <>
         <div className="footer">
-          <h1 className="title">GoStreet</h1>
-          <h4 className="title">Visit Help Center</h4>
+          {/* <h1 className="title">GoStreet</h1> */}
+          <h4 className="text-line">Visit Help Center</h4>
          <div className= "footer section_padding">
           <div className="footer-links">
             <div  className="footer-links_div">
                 <h4>Company</h4>
-                <a className="text-bar" href="/aboutus">
-                  <p className="text-tittle">About Us</p>
+                <a href="/aboutus">
+                  <p >About Us</p>
                 </a>
                 <a href="/ouroffering">
                   <p>Our Offerings</p>
@@ -34,17 +34,17 @@ export default function Footer(){
                 <a href="/careers">
                   <p>Careers</p>
                 </a>
-                <a href="/ai">
+                {/* <a href="/ai">
                   <p>AI</p>
-                </a>
-                <a href="/giftcards">
+                </a> */}
+                {/* <a href="/giftcards">
                   <p>Gift cards</p>
-                </a>
+                </a> */}
               </div>
 
              <div className="footer-links_div">
                  <h4>Products</h4>
-                 <a href = "/ride">
+                 <a href = "/ride"  >
                       <p>Ride</p>
                  </a>
                  <a href = "/drive">
@@ -53,15 +53,15 @@ export default function Footer(){
                  <a href = "/deliver">
                       <p>Deliver</p>
                  </a>
-                 <a href = "/eat">
+                 {/* <a href = "/eat">
                       <p>Eat</p>
-                 </a>
+                 </a> */}
                  <a href = "/uberforbusiness">
                       <p>Uber for Business</p>
                  </a>
-                 <a href = "/uberfreight">
+                 {/* <a href = "/uberfreight">
                       <p>Uber Freight</p>
-                 </a>
+                 </a> */}
              </div>
 
              <div className="footer-links_div">
@@ -91,7 +91,7 @@ export default function Footer(){
              </div>
 
              <div className="footer-links_div">
-                <h4>Find Us On Social Media</h4> 
+                <h4 className="text-name">Find Us On Social Media</h4> 
                  <div className="socialmedia"> 
                       <p><img src={GitHub} alt=""/></p>
                       <p><img src={Linkedin} alt=""/></p>
