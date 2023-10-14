@@ -16,3 +16,18 @@
     margin-right:100px;
     margin:0px 10px;
 } */
+
+.text-nav{
+    font-size: 25px;
+    margin: 0px 10px;
+}
+.text-nav:hover{
+    color: white;
+    border-bottom: 3px solid;
+}
+.nav-color{
+    background-color:#ffc000;
+}
+.heading-main{
+    margin-top: 25px;
+}

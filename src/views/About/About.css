@@ -1,5 +1,10 @@
+body{
+  background-color: #fff9e6;
+}
+
 .common-section {
   margin: 5rem 0;
+  background-color: #fff9e6;
 }
 
 .our-services img {
@@ -7,8 +12,8 @@
   margin-top: 10rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
   border-radius: 1.5rem;
-  width: 95%;
   margin-left: 30px;
+  width: 100%;
 }
 
 .our-services .mini-title {
@@ -23,7 +28,7 @@
 .our-services .main-heading {
   font-weight: bolder;
   margin-left: 30px;
-  color: #33cc33;
+  color: #cc9900;
   font-size: 40px;
 }
 
@@ -67,10 +72,11 @@ button{
   width: 250px;
   border-radius: 40px;
   cursor: pointer;
-  background-color: black;
+  background-color:  #cc9900;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   transition: 0.5s;
+  border: none;
 }
 button:hover{
   height: 55px;

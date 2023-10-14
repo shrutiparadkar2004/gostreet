@@ -10,14 +10,14 @@ export default function Footer(){
     return(
         <>
         <div className="footer">
-          <h1 className="title">Uber</h1>
+          <h1 className="title">GoStreet</h1>
           <h4 className="title">Visit Help Center</h4>
          <div className= "footer section_padding">
           <div className="footer-links">
             <div  className="footer-links_div">
                 <h4>Company</h4>
-                <a href="/aboutus">
-                  <p>About Us</p>
+                <a className="text-bar" href="/aboutus">
+                  <p className="text-tittle">About Us</p>
                 </a>
                 <a href="/ouroffering">
                   <p>Our Offerings</p>
@@ -107,7 +107,7 @@ export default function Footer(){
           <div className="footer-below">
             <div className="footer-copyright">
                 <p className="footerbelow">
-                    @{new Date().getFullYear()} Website Created By GoStreet Team.
+                    @{new Date().getFullYear()}Website Created By GoStreet Team.
                 </ p>
            </div>
           </div>

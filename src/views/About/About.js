@@ -1,15 +1,21 @@
-/*import "./about.css";
-import Navbar from "./../../components/navbar/navbar";
-import Footer from "./../../components/footer/footer";*/
 
-import React, { useState } from "react";
+// import "./about.css";
+  //import Navbar from "./../../components/Navbar/Navbar";
+  //import Footer from "./../../components/Footer/Footer";
+
+ import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
+import Navbar from "./../../components/Navbar/Navbar";
+import Footer from "./../../components/Footer/Footer";
+
 import "./About.css";
 
 const About = () => {
   const [aboutData] = useState(howToUseApp);
   return (
     <>
+    <Navbar/>
+    
       <section className="common-section our-services">
         <div className="container mb-5">
           <div className="row">
@@ -84,6 +90,8 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <Footer/>
     </>
   );
 };
