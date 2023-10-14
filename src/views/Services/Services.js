@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Servicedata from './../../configs/Service-Data.json';
 import Servicecard from './../../components/Servicecard/Servicecard';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 import './Services.css';
 import { useState } from 'react';
@@ -27,7 +29,7 @@ function Services() {
 
   return (
     <>
-
+<Navbar/>
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -102,6 +104,8 @@ onChange={(e)=>{
         ))
         }
       </div>
+
+      <Footer/>
     </>
   )
 }

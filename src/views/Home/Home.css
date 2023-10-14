@@ -1,10 +1,18 @@
+body{
+    background-color: #fff;
+}
+
 .text-h{
     text-align: center;
-    background-color: black;
-    color: white;
+    /* background-color:white; */
+    color:#ffc000;
     font-size: 50px;
      padding: 7px 7px;  
 }
+
+/* body{
+    background-color:#fff;
+} */
 
 /* .text-box{
     height:400px;
@@ -23,5 +31,10 @@
     box-shadow: 0 0 10px #ccc;
     transition: all 0.3s ease-in-out;
 }
+.text-desc{
+    color: rgb(147, 47, 241);
+}
+
+
 .merge{margin:10px;}
 
