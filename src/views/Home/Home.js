@@ -25,7 +25,7 @@
             <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_778/v1677102595/assets/66/2853af-061f-4176-8c6b-f2ddef091599/original/UberIM_002309-%281%29.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button"                          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
            <span class="visually-hidden">Previous</span>
          </button>
@@ -43,7 +43,7 @@
         <h2>GoStreet Bike</h2><br></br>
       <div>
          <h4>You have freedom of choice</h4>
-         <h5><p>Traveling by bike is to take the<br></br> slow road. This shouldn't be <br></br>seen as something negative <br></br>but as something to embrace.</p></h5>
+         <h5 className='text-desc'><p>Traveling by bike is to take the<br></br> slow road. This shouldn't be <br></br>seen as something negative <br></br>but as something to embrace.</p></h5>
       </div>
     </div>
 
@@ -53,7 +53,7 @@
    
        <div>
            <h4>You set the price</h4>
-           <h5><p>Offer your fares and save on<br></br> every ride long or short. No hidden <br></br>charges or surge pricing.No more <br></br>algorithms telling you what to pay.</p></h5>
+           <h5 className='text-desc'><p>Offer your fares and save on<br></br> every ride long or short. No hidden <br></br>charges or surge pricing.No more <br></br>algorithms telling you what to pay.</p></h5>
       </div>
     </div>
 
@@ -62,7 +62,7 @@
          <h2>GoStreet Car</h2><br></br>
        <div>
          <h4>You have freedom of choice</h4>
-         <h5><p>Select the best offers from <br></br>drivers based on price, vehicle,<br></br> and estimated arrival time.</p></h5>
+         <h5 className='text-desc'><p>Select the best offers from <br></br>drivers based on price, vehicle,<br></br> and estimated arrival time.</p></h5>
        </div>
      </div>
 
@@ -71,7 +71,7 @@
           <h2>GoStreet Rental</h2><br></br>
        <div>
             <h4>You know your driver</h4>
-            <h5><p>Now everything is under control <br></br>you even choose your driver <br></br>based on their rating and on <br></br>other passenger's feedback.</p></h5>
+            <h5 className='text-desc'><p>Now everything is under control <br></br>you even choose your driver <br></br>based on their rating and on <br></br>other passenger's feedback.</p></h5>
        </div>
      </div>
 
