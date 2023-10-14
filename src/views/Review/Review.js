@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import './Review.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-
+import OneStar from './img/one.png';
+import TwoStar from './img/five.png';
+import ThreeStar from './img/four.png';
+import FourStar from './img/three.png';
+import FiveStar from './img/two.png';
 function VehicleReviewPage() {
   const [vehicles, setVehicles] = useState([]);
   const [newVehicle, setNewVehicle] = useState({ make: '', model: '', year: '', price: '', review: '' });
@@ -19,8 +23,28 @@ function VehicleReviewPage() {
   };
 
   return (
-    <div>
+    <div className='container'>
         <Navbar/>
+        <div>
+          <h1>CUSTOMER REVIEW</h1>
+          <div>
+            <div>
+              Overall Customer Satisfaction
+              <span>4.1/5</span>
+              based on 2003 reviews
+            </div>
+            <div>
+              100% Verified Feedback & Reviews From Customers
+            </div>
+            <div>
+              <img src={FiveStar} alt="fivestar" />
+              <img src={FourStar} alt="fourstar" />
+              <img src={ThreeStar} alt="threestar" />
+              <img src={TwoStar} alt="twostar" />
+              <img src={OneStar} alt="onestar" />
+            </div>
+          </div>
+        </div>
       <h1 className='heading'>Vehicle Review</h1>
       <div className='in-container'>
         <h2>Add Vehicle</h2>
