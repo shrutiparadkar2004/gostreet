@@ -1,4 +1,5 @@
 import React , {useState} from "react";
+import "./Userlogin.css"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 /*import React from 'react';
@@ -19,7 +20,7 @@ function Userlogin() {
 //import React , {useState} from "react";
 
 <Navbar/>
-import "./Userlogin.css"
+
 
 const Userlogin = () => {
 

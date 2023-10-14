@@ -1,6 +1,7 @@
-  import React, { useState } from 'react';
+  import React, { useState,useEffect } from 'react';
   import { Link, useNavigate } from 'react-router-dom';
   import showToast from "crunchy-toast";
+
   import './Adminlogin.css';
   import Navbar from "./../../components/Navbar/Navbar";
   import Footer from "./../../components/Footer/Footer";
@@ -15,45 +16,61 @@
  
 
 function Adminlogin() {
+  const [data, setData] = useState([]);
+  const [ username, setUsername] = useState('');
+  const [ password, setPassword] = useState('');
+  console.log( username);
+  console.log( password);
+  console.log( data);
 
-
-    const[ showPopup]= useState("hide")
-
-    const popup = () => {
-        showPopup ("login-popup")
-        setTimeout (() => showPopup ("hide"),3000)
-    }
+  // const handleLogin = () => {
+  //   if ( username === 'admin' && password === 'password') {
+  //     console.log('Sign up Successfully');
+  //   }
+  //   else
+  //   {
+  //     alert(' Invalid Credentials. please try again.');
+  //   }
+  // };
+  const sevedata = ()=> {
+const obj = {
+   username: username,
+   password: password,
+}
+ const temp = [...data, obj]
+ setData(temp)
+ console.log(data)
+ localStorage.setItem('admindata', JSON.stringify(temp));
+  }
 
 return (
   <>
   <Navbar/>
   
    <div class="contanier">
-        <h1 className='title' onClick={popup}> Sign Up</h1>
         <form>
             <div> 
                 <p class="label"> Username:</p>
                 <input 
-                type='text' className='username'
+                type='text' className='username' placeholder='Email or Mobile'value={username} type ='text'
+                onChange={ (e)=> setUsername(e.target.value)}
                 />
             
             </div>
             <div>
                 <p class="label"> Password:</p>
                 <input
-                className='password'
+                className='password' placeholder='password' value={password} type='password'
+                onChange={(e) => setPassword(e.target.value)}
                 />
             
             </div>
-            <div>
-                <p class="label"> Confirm password</p>
-               <input className='password'/>
-            </div>
+            
             <br/>
             <div >
-            <button class="register-btn"> Sign Up</button>
+            <button  onClick={()=>{ sevedata()}}  class="register-btn"> Sign Up</button>
             </div>
-
+            <br/>
             <div className='message'>
               Already have an Account ? 
               <Link to ={'/Userlogin'}  className='message'>Login</Link>
