@@ -1,16 +1,18 @@
 [
     {
         "name":"Swift Desire",
-        "image" : " ",
+        "image" : "https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png ",
         "author" : "kk",
         "price" : "30 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
         "drivename"  : "ghk",
-        "turmscondition" : " asdfghjk "
+        "turmscondition" : " asdfghjk ",
+        "symbol" : "🚗",
+        "icon" : "bvch"
     },
     {
         "name":"Bricza",
-        "image" : " ",
+        "image" : " https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png",
         "author" : "kk",
         "price" : "30 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
@@ -19,7 +21,7 @@
     },
     {
         "name":"Necza",
-        "image" : " ",
+        "image" : " https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png",
         "author" : "kk",
         "price" : "30 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
@@ -28,7 +30,7 @@
     },
     {
         "name":"Fortuner",
-        "image" : " ",
+        "image" : " https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png",
         "author" : "kk",
         "price" : "30 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
@@ -37,7 +39,7 @@
     },
     {
         "name":"Scorpio",
-        "image" : " ",
+        "image" : "https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png ",
         "author" : "kk",
         "price" : "30 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
@@ -46,34 +48,34 @@
     },
     {
         "name":"Renautl",
-        "image" : " ",
+        "image" : "https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png ",
         "author" : "kk",
-        "price" : "30 per/km",
+        "price" : "30 ",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
         "drivename"  : "ghk",
         "turmscondition" : " asdfghjk "
     },
     {
         "name":"BMW",
-        "image" : " ",
+        "image" : " https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png",
         "author" : "kk",
-        "price" : "30 per/km",
+        "price" : "30 ",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
         "drivename"  : "ghk",
         "turmscondition" : " asdfghjk "
     },
     {
         "name":"Tata Nano",
-        "image" : " ",
+        "image" : "https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png ",
         "author" : "kk",
-        "price" : "10 per/km",
+        "price" : "10",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,
         "drivename"  : "ghk",
         "turmscondition" : " asdfghjk "
     },
     {
         "name":"Safari",
-        "image" : " ",
+        "image" : "https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/taxi_2_1-4-1.png ",
         "author" : "kk",
         "price" : "10 per/km",
         "description" : "sfghjkl;kjhugjvh  uiyrryri  gljgadf piy qrt ;kjh agh ijiu " ,

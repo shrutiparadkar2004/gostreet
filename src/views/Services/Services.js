@@ -97,6 +97,7 @@ onChange={(e)=>{
             name={Service.name}
             image={Service.image}
             price={Service.price}
+            symbol={Service.symbol}
           />
         ))
         }

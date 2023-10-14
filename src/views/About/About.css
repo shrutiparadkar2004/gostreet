@@ -1,6 +1,6 @@
-body{
+/* body{
   background-color: #fff9e6;
-}
+} */
 
 .common-section {
   margin: 5rem 0;
@@ -66,7 +66,7 @@ body{
 .our-services-rightside-content {
   padding-left: 8rem;
 }
-button{
+/* button1{
   margin-left: 30px;
   height: 50px;
   width: 250px;
@@ -78,8 +78,8 @@ button{
   transition: 0.5s;
   border: none;
 }
-button:hover{
+button1:hover{
   height: 55px;
   width: 260px;
   transition: 0.5s;
-}
+} */
