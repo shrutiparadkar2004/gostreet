@@ -80,6 +80,7 @@ function Services() {
 
  <div>
 
+<div class="text-center">
 <input type='text' 
 className='input-search1'
 placeholder='search'
@@ -88,6 +89,7 @@ onChange={(e)=>{
   setSearch(e.target.value);
 }}
 />
+</div>
 
  </div>
 
