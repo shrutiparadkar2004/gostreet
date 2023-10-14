@@ -23,10 +23,10 @@ function VehicleReviewPage() {
         <Navbar/>
       <h1 className='heading'>Vehicle Review</h1>
       <div className='in-container'>
-        {/* <h2>Add Vehicle</h2> */}
+        <h2>Add Vehicle</h2>
         <input
           type="text"
-          placeholder="Make"
+          placeholder="Name"
           value={newVehicle.make}
           onChange={(e) => setNewVehicle({ ...newVehicle, make: e.target.value })}
         />
@@ -58,11 +58,13 @@ function VehicleReviewPage() {
       </div>
 
       {vehicles.map((vehicle, index) => (
-        <div key={index}>
+        <div className='review'>
+        <div key={index} className='review-output'>
           <h2>{vehicle.year} {vehicle.make} {vehicle.model}</h2>
           <p>Price: ${vehicle.price}</p>
           <p>Review: {vehicle.review}</p>
           <button onClick={() => deleteVehicle(index)}>Delete</button>
+        </div>
         </div>
       ))}
       <Footer/>
