@@ -5,7 +5,7 @@
   import Navbar from "./../../components/Navbar/Navbar";
   import Footer from "./../../components/Footer/Footer";
 
-    <Navbar/>
+    
 
 // import { Link, useNavigate } from 'react-router-dom';
 // import showToast from 'Crunchy-toast';
@@ -59,7 +59,8 @@ function Adminlogin() {
 
 return (
   <>
-  {/* <Navbar/> */}
+  {/* <Navbar/>*/}
+  
    <div class="contanier">
         <h1 className='title' onClick={popup}> Sign Up</h1>
         <form>
@@ -131,20 +132,20 @@ return (
             <div> 
                 <p class="label"> Username:</p>
                 <input 
-                type='text' className='username'
+                type='text' className='username' placeholder=' Email Or Mobile'
                 />
             
             </div>
             <div>
                 <p class="label"> Password:</p>
                 <input
-                className='password'
+                className='password' placeholder='password'
                 />
             
             </div>
             <div>
                 <p class="label"> Confirm password</p>
-               <input className='password'/>
+               <input className='password' placeholder='password'/>
             </div>
             <br/>
             <div className='button'>
@@ -160,11 +161,11 @@ return (
         </form>
 
         </div>
-
+      
   </>
 )
 }
 
-     <Footer/>
+     
 
 export default Adminlogin
