@@ -18,7 +18,7 @@ function Userlogin() {
 
 //import React , {useState} from "react";
 
-      <Navbar/>
+<Navbar/>
 import "./Userlogin.css"
 
 const Userlogin = () => {
