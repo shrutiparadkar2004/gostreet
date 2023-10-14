@@ -1,17 +1,13 @@
    import ReactDOM from 'react-dom/client';
    import Navbar from "./../../components/Navbar/Navbar";
    import Footer from "./../../components/Footer/Footer";
+   import Servicecard from './../../components/Servicecard/Servicecard';
  
        import './Home.css';
         function Home () {
      return (
          <>
            <Navbar/>
-     
-           {/* <h1 className="body-div">Home Page</h1> */}
-
-
-             
 
            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -38,45 +34,53 @@
          <h1 className='text-h'> Why passengers choose us</h1> <br></br><br></br>
 
         <div class="d-flex justify-content-evenly flex-wrap">
+        <div  className='card-n'>
         <div class="text-center">
         <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914539/assets/86/82f8b3-e2e6-45f8-a8f7-fdc511f709e0/original/Moto-150X150p4x.png' />
         <h2>GoStreet Bike</h2><br></br>
       <div>
          <h4>You have freedom of choice</h4>
-         <h5 className='text-desc'><p>Traveling by bike is to take the<br></br> slow road. This shouldn't be <br></br>seen as something negative <br></br>but as something to embrace.</p></h5>
+         <h5 className='text-desc'><p>Traveling by bike is to take the slow road. This shouldn't be seen as something negative but as something to embrace.</p></h5>
       </div>
     </div>
+    </div>
 
+    <div  className='card-n'>
        <div class="text-center">
           <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914471/assets/89/8e4239-5e7d-4de7-bf71-00cc32d468db/original/Auto-150X150p4x.png' />
           <h2>GoStreet Auto</h2><br></br>
    
        <div>
            <h4>You set the price</h4>
-           <h5 className='text-desc'><p>Offer your fares and save on<br></br> every ride long or short. No hidden <br></br>charges or surge pricing.No more <br></br>algorithms telling you what to pay.</p></h5>
+           <h5 className='text-desc'><p>Offer your fares and save on every ride long or short. No hidden charges or surge pricing.No more algorithms telling you what to pay.</p></h5>
       </div>
     </div>
+    </div>
 
+       <div  className='card-n'>
          <div class="text-center">
          <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914597/assets/f7/7f583f-447a-4cf7-8da6-6ad254f0a66b/original/Intercity-150X150p4x.png' />
          <h2>GoStreet Car</h2><br></br>
        <div>
          <h4>You have freedom of choice</h4>
-         <h5 className='text-desc'><p>Select the best offers from <br></br>drivers based on price, vehicle,<br></br> and estimated arrival time.</p></h5>
+         <h5 className='text-desc'><p>Select the best offers from drivers based on price, vehicle, and estimated arrival time.</p></h5>
        </div>
      </div>
-
+     </div>
+      
+      <div  className='card-n'>
        <div class="text-center">
           <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1630531077/assets/38/494083-cc23-4cf7-801c-0deed7d9ca55/original/uber-hourly.png' />
           <h2>GoStreet Rental</h2><br></br>
        <div>
             <h4>You know your driver</h4>
-            <h5 className='text-desc'><p>Now everything is under control <br></br>you even choose your driver <br></br>based on their rating and on <br></br>other passenger's feedback.</p></h5>
+            <h5 className='text-desc'><p>Now everything is under control you even choose your driver based on their rating and on other passenger's feedback.</p></h5>
        </div>
      </div>
-
-
+     </div>
  
+
+       
 </div> 
 
              <Footer/>

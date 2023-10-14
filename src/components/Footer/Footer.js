@@ -10,7 +10,7 @@ export default function Footer(){
     return(
         <>
         <div className="footer">
-          {/* <h1 className="title">GoStreet</h1> */}
+    
           <h4 className="text-line">Visit Help Center</h4>
          <div className= "footer section_padding">
           <div className="footer-links">
@@ -34,12 +34,6 @@ export default function Footer(){
                 <a href="/careers">
                   <p>Careers</p>
                 </a>
-                {/* <a href="/ai">
-                  <p>AI</p>
-                </a> */}
-                {/* <a href="/giftcards">
-                  <p>Gift cards</p>
-                </a> */}
               </div>
 
              <div className="footer-links_div">
@@ -53,15 +47,9 @@ export default function Footer(){
                  <a href = "/deliver">
                       <p>Deliver</p>
                  </a>
-                 {/* <a href = "/eat">
-                      <p>Eat</p>
-                 </a> */}
                  <a href = "/uberforbusiness">
                       <p>Uber for Business</p>
                  </a>
-                 {/* <a href = "/uberfreight">
-                      <p>Uber Freight</p>
-                 </a> */}
              </div>
 
              <div className="footer-links_div">
