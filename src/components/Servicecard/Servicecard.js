@@ -22,13 +22,16 @@ function services({ name,
             
             <div className="card-container">
                 <img src={image} alt="car image" className=" img-card" />
-                <p className="symbol-card"> {symbol} </p>
+                <div className="tect-cen">
+                {/* <p className="symbol-card"> {symbol} </p> */}
+                <img className="symbol-card"  src={symbol} alt="icom" />
+                </div>
                 <div className="bg-black">
                     <h3 className="heading-card">{name}</h3>
-                    <p> RS :  <span className="price-color" >₹{price}</span> <span className="unit-card">per/hr</span> </p>
+                    <p className="price"> RS :  <span className="price-color" >₹{price}</span> <span className="unit-card">per/hr</span> </p>
 
-                    <button className="">view Details </button>
-                    <button className="">By Now </button>
+                    <button className="btn-card">view Details </button>
+                    <button className="btn-card">By Now </button>
                 </div>
 
             </div>

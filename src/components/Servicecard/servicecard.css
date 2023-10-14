@@ -3,6 +3,8 @@
     /* background-color: rgba(255, 237, 215, 0.749); */
     display: inline-block;
     padding: 20px;
+    text-align: center;
+    
 
 }
 
@@ -15,8 +17,8 @@
 }
 .btn-card{
     height: 40px;
-    width: 180px;
-    margin: 20px;
+    width: 130px;
+    margin: 10px;
     border: 1px solid black;
 }
 .img-card{
@@ -29,14 +31,25 @@
     padding-top:40px ;
 }
 .price-color{
-    color: black;
+    color:white;
     font-weight: bold;
     font-size: 20px;
 }
 .symbol-card{
+    height: 100px;
     text-align: center;
-    background-color: aqua;
-    display: inline-block;
-    padding: 30px;
-    border-radius: 50%;
+    background-color: #ffc000;
+  padding: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 8px solid white;
+  
+
 }
+.tect-cen{
+    text-align: center;
+}
+.bg-black{
+    margin-top: -50px;
+}
+.price{ color: rgb(165, 165, 165);}

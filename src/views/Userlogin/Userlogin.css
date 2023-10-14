@@ -21,6 +21,7 @@
      justify-content: space-around;
      margin-top: 80px;
      margin-left: 500px;
+     margin-bottom: 100px;
 }
 
 .alt-login{
@@ -37,7 +38,7 @@
 .google {background-image: url("https://www.flaticon.com/free-icon/google_2504739");}
 .facebook {background-image: url("https://www.flaticon.com/free-icon/facebook_733547");}
 
-input{
+/* input{
     border: none;
     background-color: rgb(229,226,226);
     height: 4em;
@@ -49,7 +50,7 @@ input{
 
 input:focus{
     outline-color: rgb(32,177,255);
-}
+} */
 
 .login-btn{
     width: 40%;
