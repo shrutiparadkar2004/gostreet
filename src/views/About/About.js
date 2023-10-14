@@ -14,6 +14,8 @@ const About = () => {
   const [aboutData] = useState(howToUseApp);
   return (
     <>
+    <Navbar/>
+    
       <section className="common-section our-services">
         <div className="container mb-5">
           <div className="row">
@@ -88,6 +90,8 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <Footer/>
     </>
   );
 };
