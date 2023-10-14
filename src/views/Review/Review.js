@@ -22,32 +22,43 @@ function VehicleReviewPage() {
     setVehicles(updatedVehicles);
   };
 
+
+
   return (
-    <div className='container'>
+    <>
         <Navbar/>
-        <div>
-          <h1>CUSTOMER REVIEW</h1>
-          <div>
-            <div>
-              Overall Customer Satisfaction
-              <span>4.1/5</span>
-              based on 2003 reviews
+        <div className='customer-review'>
+          <h2>CUSTOMER REVIEW</h2>
+          <div className='c-r-1'>
+            <div className='c-r-2'>
+              <p children='p1'>Overall Customer <br/>Satisfaction</p>
+              <span className='spa1'>4.1</span><span className='spa'>/5</span>
+              <p className='p2'>based on 2003 reviews</p>
             </div>
-            <div>
+            <div className='c-r'>
               100% Verified Feedback & Reviews From Customers
             </div>
-            <div>
-              <img src={FiveStar} alt="fivestar" />
-              <img src={FourStar} alt="fourstar" />
-              <img src={ThreeStar} alt="threestar" />
-              <img src={TwoStar} alt="twostar" />
-              <img src={OneStar} alt="onestar" />
+            <div className='img-c'>
+              <div>
+              <img src={FiveStar} alt="fivestar" /><span>1326</span>
+              </div>
+              <div>
+              <img src={FourStar} alt="fourstar" /><span>221</span>
+              </div>
+              <div>
+              <img src={ThreeStar} alt="threestar" /><span>116</span>
+              </div>
+              <div>
+              <img src={TwoStar} alt="twostar" /><span>73</span>
+              </div>
+              <div>
+              <img src={OneStar} alt="onestar" /><span>267</span>
+              </div>
             </div>
           </div>
-        </div>
-      <h1 className='heading'>Vehicle Review</h1>
+        </div> 
+      <h2 className='heading'>ADD REVIEWS</h2>
       <div className='in-container'>
-        <h2>Add Vehicle</h2>
         <input
           type="text"
           placeholder="Name"
@@ -78,7 +89,8 @@ function VehicleReviewPage() {
           value={newVehicle.review}
           onChange={(e) => setNewVehicle({ ...newVehicle, review: e.target.value })}
         />
-        <button onClick={addVehicle} >Add</button>
+        <br/>
+        <button onClick={addVehicle}>Add Review</button>
       </div>
 
       {vehicles.map((vehicle, index) => (
@@ -92,7 +104,7 @@ function VehicleReviewPage() {
         </div>
       ))}
       <Footer/>
-    </div>
+    </>
   );
 }
 
