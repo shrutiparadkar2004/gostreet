@@ -2,9 +2,13 @@
    import Navbar from "./../../components/Navbar/Navbar";
    import Footer from "./../../components/Footer/Footer";
    import Servicecard from './../../components/Servicecard/Servicecard';
+   import servicedata from './../../configs/Service-Data.json';
+   import homeservice from './../../configs/Home-Service-Data.json';
+   
  
        import './Home.css';
-        function Home () {
+import { element } from 'prop-types';
+        function Home ({name,image,price,synpm ,symbol}) {
      return (
          <>
            <Navbar/>
@@ -37,7 +41,7 @@
         <div  className='card-n'>
         <div class="text-center">
         <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914539/assets/86/82f8b3-e2e6-45f8-a8f7-fdc511f709e0/original/Moto-150X150p4x.png' />
-        <h2>GoStreet Bike</h2><br></br>
+        <h2 className='text-heading'>GoStreet Bike</h2><br></br>
       <div>
          <h4>You have freedom of choice</h4>
          <h5 className='text-desc'><p>Traveling by bike is to take the slow road. This shouldn't be seen as something negative but as something to embrace.</p></h5>
@@ -48,7 +52,7 @@
     <div  className='card-n'>
        <div class="text-center">
           <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914471/assets/89/8e4239-5e7d-4de7-bf71-00cc32d468db/original/Auto-150X150p4x.png' />
-          <h2>GoStreet Auto</h2><br></br>
+          <h2 className='text-heading'>GoStreet Auto</h2><br></br>
    
        <div>
            <h4>You set the price</h4>
@@ -60,7 +64,7 @@
        <div  className='card-n'>
          <div class="text-center">
          <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1649914597/assets/f7/7f583f-447a-4cf7-8da6-6ad254f0a66b/original/Intercity-150X150p4x.png' />
-         <h2>GoStreet Car</h2><br></br>
+         <h2  className='text-heading' >GoStreet Car</h2><br></br>
        <div>
          <h4>You have freedom of choice</h4>
          <h5 className='text-desc'><p>Select the best offers from drivers based on price, vehicle, and estimated arrival time.</p></h5>
@@ -71,16 +75,32 @@
       <div  className='card-n'>
        <div class="text-center">
           <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1630531077/assets/38/494083-cc23-4cf7-801c-0deed7d9ca55/original/uber-hourly.png' />
-          <h2>GoStreet Rental</h2><br></br>
+          <h2 className='text-heading'>GoStreet Rental</h2><br></br>
        <div>
             <h4>You know your driver</h4>
             <h5 className='text-desc'><p>Now everything is under control you even choose your driver based on their rating and on other passenger's feedback.</p></h5>
        </div>
      </div>
      </div>
- 
-
+     
+     {
+       homeservice.map( ( element, i ) =>{
        
+     const{name,image,price,symbol} = element;
+     return (
+     <Servicecard
+          // key={index}
+            name={name}
+            image={image}
+            price={price}
+            symbol={symbol}
+          />
+     )
+       })
+     }
+
+      
+
 </div> 
 
              <Footer/>
