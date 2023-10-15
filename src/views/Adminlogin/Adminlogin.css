@@ -7,19 +7,20 @@
 
 }
 .contanier {
-  width: 335px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    padding: 20px;
-    background-color:#fff;
-    border-radius: 20px;
-    border-top: 15px solid #cc7a00;
-    border-bottom: 2px solid #cc7a00;
-    border-left: 2px solid #cc7a00;
-    border-right: 2px solid #cc7a00;
+  background-color: white;
+    width: 30em;
+     height: 35em;
+     position: relative;
+     border-radius: 1em;
+     box-shadow: 0 0.188em 1.550em rgb(156,156,156);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 70px;
+     margin-left: 500px;
+     margin-bottom: 60px;
+     padding: 200px;
 }
 {/*.title{
   text-align: center;
@@ -41,9 +42,8 @@
 }
 .password{
   width: 280px;
-
+  text-align: center;
   height: 50px;
-
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -53,27 +53,22 @@
 }
 
 .register-btn {
-  padding: 14px;
-  background-color:#cc7a00;
-  color:black;
-  border: none;
-  display: flex;
-  justify-content: center;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 20px;
-  text-align: center;
+  width: 100px;
+    height: 3em;
+    background-color: rgb(32,177,255);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
  }
-
- .button{
-  margin-left: 30px;
-  width: 10px;
+ .register-btn:hover{
+  width: 120px;
  }
- 
-
-
-
- .message{
+  .message{
   text-align: center;
   margin-top: 20px;
   color: black;
