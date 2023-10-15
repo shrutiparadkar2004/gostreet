@@ -52,7 +52,7 @@ function Services() {
         </button>
       </div>
 
- <h1> Our services </h1> 
+ <h1 className='head-servic'> Our services </h1> 
 
  <div class="d-flex justify-content-evenly flex-wrap">
   <div class="text-center">
@@ -93,7 +93,7 @@ onChange={(e)=>{
 
  </div>
 
-      <div className="container-main">
+      <div className="dis-flex">
         {
          card.map((Service, index) => (
           <Servicecard
