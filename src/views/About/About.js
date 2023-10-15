@@ -7,7 +7,6 @@
 import howToUseApp from "../../API/howToUse.js";
 import Navbar from "./../../components/Navbar/Navbar";
 import Footer from "./../../components/Footer/Footer";
-import Card from './../../components/Card/Card';
 
 import "./About.css";
 
@@ -49,7 +48,7 @@ const About = () => {
               })}
 
               <br />
-              <button className="btn-style btn-style-border">learn more</button>
+              <button className="button1">learn more</button>
             </div>
           </div>
         </div>
@@ -63,7 +62,7 @@ const About = () => {
             <div className="text-center our-service-leftside-img">
             <div className="our-services-list">
               <h3 className="mini-title">
-                -- AVAILABLE @ GOOGLE AND IOS APP STORE ONLY
+                -- CHECK RIDES IN YOUR CITY
               </h3>
               </div>
               <img src="https://www.enterpriseappstoday.com/wp-content/uploads/2023/08/Ridesharing-Industry-statistics.jpg" alt="aboutusIMg"/>
@@ -89,7 +88,7 @@ const About = () => {
               })}
 
               <br />
-              <button className="btn-style btn-style-border">learn more</button>
+              <button className="button1">learn more</button>
             </div>
           </div>
         </div>
