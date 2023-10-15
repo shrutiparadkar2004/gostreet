@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Servicedata from './../../configs/Service-Data.json';
 import Servicecard from './../../components/Servicecard/Servicecard';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 import './Services.css';
 import { useState } from 'react';
@@ -27,7 +29,7 @@ function Services() {
 
   return (
     <>
-
+<Navbar/>
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -78,6 +80,7 @@ function Services() {
 
  <div>
 
+<div class="text-center">
 <input type='text' 
 className='input-search1'
 placeholder='search'
@@ -86,6 +89,7 @@ onChange={(e)=>{
   setSearch(e.target.value);
 }}
 />
+</div>
 
  </div>
 
@@ -97,10 +101,13 @@ onChange={(e)=>{
             name={Service.name}
             image={Service.image}
             price={Service.price}
+            symbol={Service.symbol}
           />
         ))
         }
       </div>
+
+      <Footer/>
     </>
   )
 }
