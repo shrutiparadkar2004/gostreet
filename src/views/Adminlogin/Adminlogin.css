@@ -55,7 +55,7 @@
 .register-btn {
   width: 100px;
     height: 3em;
-    background-color: rgb(32,177,255);
+    background-color: black;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +64,7 @@
     transition: 0.5s;
     border-radius: 0.25em;
     cursor: pointer;
+    color: #ccc;
  }
  .register-btn:hover{
   width: 120px;
