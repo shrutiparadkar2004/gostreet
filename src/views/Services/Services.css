@@ -7,3 +7,14 @@
     border: 2px solid black;
     
 }
+
+.dis-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.head-servic{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px; ;
+}

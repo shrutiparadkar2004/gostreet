@@ -1,11 +1,10 @@
-.card-container{
+.card-container1{
     /* border: 1px solid black; */
     /* background-color: rgba(255, 237, 215, 0.749); */
     display: inline-block;
-    /* padding: 10px; */
+    padding: 20px;
     text-align: center;
-    margin: 0px;
-    width:200px;
+    width: 370px;
     
 
 }
@@ -19,18 +18,22 @@
 }
 .btn-card{
     height: 40px;
-    width: 130px;
+    width: 200px;
     margin: 10px;
     border: 1px solid black;
 }
+.btn-card:hover{
+    background-color: #ffc000;
+    
+}
 .img-card{
-    width: 200px;
+    width: 300px;
 }
 .heading-card{
     font-weight: bold;
     color: white;
     text-align: center;
-    padding-top:40px ;
+    padding-top:50px ;
 }
 .price-color{
     color:white;
