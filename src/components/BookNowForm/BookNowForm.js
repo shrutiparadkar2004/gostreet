@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./BookNowForm.css"
 import axios from "axios";
 import showToast from 'crunchy-toast';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function BookNowForm() {
   const [address, setAddress] = useState('');
@@ -93,7 +93,7 @@ alert("Your Taxi is Book successfull")
                onChange={(e)=>{setName(e.target.value)}}
               /> <br />
 
-              <input type="text" placeholder="Enter your location" className="input-type" value={address}  onChange={(e)=>{setAddress(e.target.value)}} /><span className="get-location" onClick={fetchLocation}><FontAwesomeIcon icon={faLocationDot} /> </span>
+              <input type="text" placeholder="Enter your location" className="input-type" value={address}  onChange={(e)=>{setAddress(e.target.value)}} /><span className="get-location" onClick={fetchLocation}> live</span>
               <br />
 
 

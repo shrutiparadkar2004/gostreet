@@ -52,7 +52,7 @@ return (
             <div> 
                 <p class="label"> Username:</p>
                 <input 
-                type='text' className='username' placeholder='Email or Mobile'value={username} type ='text'
+                type='text' className='username' placeholder='Email or Mobile'value={username} 
                 onChange={ (e)=> setUsername(e.target.value)}
                 />
             

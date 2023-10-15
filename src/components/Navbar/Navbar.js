@@ -9,7 +9,7 @@ export default function Navbar(){
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
 
-       <h1 className="heading-main">GoStreet</h1>
+       <h1 className="heading-main"> GoStreet </h1>
        
     </a>
   </div>
