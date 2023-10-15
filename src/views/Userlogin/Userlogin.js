@@ -9,6 +9,8 @@ import React , {useEffect, useState} from "react";
 import "./Userlogin.css"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import image from './../../views/Userlogin/image/facebook.png';
+import images from './../../views/Userlogin/image/social.png';
 
 
 
@@ -36,7 +38,6 @@ const Userlogin = () => {
             username : username,
             password : password,
         }
-
         const temparray = [...datauser,obj]
         setDatauser(temparray)
     //    const storedata =  localStorage.setItem(JSON.stringify(temparray));
@@ -55,9 +56,10 @@ const Userlogin = () => {
         <>
         <Navbar/>
         <div className="cover">
-         <h1>Login</h1>
+         <h1 className="head">Login</h1>
 
-         <input type="text"
+         <input className="user-input" 
+         type="text"
           placeholder="username" 
           value={username}
           onChange={(e)=>{
@@ -66,7 +68,8 @@ const Userlogin = () => {
           required
           />
 
-         <input type="password"
+         <input className="user-input" 
+          type="password"
           placeholder="password" 
           value={password}
           onChange={(e)=>{
@@ -76,21 +79,22 @@ const Userlogin = () => {
           />
 
         <button className="login-btn"
-        onClick={()=>{
-            data()
-        }}
         >Login</button>
         <p className="text">Or login using</p>
 
         <div className="alt-login">
-           <div className="facebook"></div>
-           <div className="google"></div>
+           <div className="facebook">
+           <img src={image} alt=""  className='icon'/>
+           </div>
+           <div className="google">
+           <img src={images} alt=""  className='icon2'/>
+           </div>
         </div>
 
-        <div>
+        {/*<div>
             <h3>Login successfull!</h3>
             <p>Username & password valid</p>
-        </div>
+    </div>*/}
 
     </div>
 

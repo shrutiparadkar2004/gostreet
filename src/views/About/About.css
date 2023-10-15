@@ -24,13 +24,13 @@
   font-weight: bolder;
   margin-left: 30px;
   color: #cc9900;
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 60px;
 }
 
 .our-services-info {
   margin-top: 40px;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .our-services .our-services-number {
@@ -62,21 +62,24 @@
 .our-services-rightside-content {
   padding-left: 8rem;
 }
-/* button1{
+.button1{
   margin-left: 30px;
   height: 50px;
-  width: 250px;
+  width: 200px;
   border-radius: 40px;
   cursor: pointer;
-  background-color:  #cc9900;
+  background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   transition: 0.5s;
   border: none;
   margin-left: 42%;
 }
-button1:hover{
-  height: 55px;
-  width: 260px;
+.button1:hover{
+  width: 240px;
   transition: 0.5s;
-} */
+}
+
+.mini-title{
+  font-size: 40px;
+}
