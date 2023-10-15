@@ -93,7 +93,7 @@ onChange={(e)=>{
 
  </div>
 
-      <div className="container-main">
+      <div className="dis-flex">
         {
          card.map((Service, index) => (
           <Servicecard
