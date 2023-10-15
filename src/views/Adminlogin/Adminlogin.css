@@ -53,20 +53,21 @@
 }
 
 .register-btn {
-  width: 100px;
+  width: 130px;
     height: 3em;
-    background-color: rgb(32,177,255);
+    background-color: black;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    border-radius: 0.25em;
     cursor: pointer;
+    color: #ccc;
+    border-radius: 12px;
  }
  .register-btn:hover{
-  width: 120px;
+  width: 150px;
  }
   .message{
   text-align: center;
