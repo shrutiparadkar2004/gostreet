@@ -13,3 +13,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.head-servic{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px; ;
+}

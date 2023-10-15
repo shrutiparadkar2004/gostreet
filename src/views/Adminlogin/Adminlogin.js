@@ -58,7 +58,7 @@ return (
             
             </div>
             <div>
-                <p class="label"> Password:</p>
+                <p className="label"> Password:</p>
                 <input
                 className='password' placeholder='password' value={password} type='password'
                 onChange={(e) => setPassword(e.target.value)}
@@ -68,7 +68,7 @@ return (
             
             <br/>
             <div >
-            <button  onClick={()=>{ sevedata()}}  class="register-btn"> Sign Up</button>
+            <button  onClick={()=>{ sevedata()}}  className="register-btn"> Sign Up</button>
             </div>
             <br/>
             <div className='message'>
