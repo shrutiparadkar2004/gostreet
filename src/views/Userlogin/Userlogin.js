@@ -1,5 +1,6 @@
 
 
+
 import React , {useEffect, useState} from "react";
 
 import Navbar from "../../components/Navbar/Navbar";
@@ -9,6 +10,14 @@ import Footer from "../../components/Footer/Footer";
 import ReactDOM from 'react-dom/client';
 
 import './Userlogin.css';
+
+
+
+import React , {useEffect, useState} from "react";
+//import React , {useState} from "react";
+import "./Userlogin.css"
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Userlogin = () => {
 
@@ -34,12 +43,12 @@ const Userlogin = () => {
     }
 
     console.log("datauser" , datauser);
-    // const[popupStyle, showPopup]= useState("hide")
+    const[popupStyle, showPopup]= useState("hide")
 
-    // const popup = () => {
-    //     showPopup ("login-popup")
-    //     setTimeout (() => showPopup ("hide"),3000)
-    // }
+    const popup = () => {
+        showPopup ("login-popup")
+        setTimeout (() => showPopup ("hide"),3000)
+    }
     return (
         <>
         <Navbar/>
@@ -77,11 +86,13 @@ const Userlogin = () => {
         </div>
 
         <div>
-            <h3>Login Failed</h3>
-            <p>Username or password incorrect</p>
+            <h3>Login successfull!</h3>
+            <p>Username & password valid</p>
         </div>
 
     </div>
+
+    <Footer/>
 
         </>
     )

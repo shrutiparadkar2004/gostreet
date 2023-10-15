@@ -1,7 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.customer-review{
+    color: rgb(14, 14, 193);
+    margin-top: 30px;
+    text-align: center;
+}
+.customer-review h1{
+    margin-bottom: 30px;
+}
+.c-r-1{
+    display: flex;
+    margin: auto;
+    box-shadow: 0 0 8px 5px rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    height: 270px;
+    width: 700px;
+    padding:5px;
+}
+
+.c-r{
+    background-color: rgb(140, 232, 140);
+    height: 100px;
+    width: 300px;
+    margin-top: 70px;
+    font-size: 18px;
+    color: black;
+    border: 1px solid green;
+    padding: 10px;
+    padding-top: 20px;
+}
+.c-r-2{
+    text-align: left;
+}
+.c-r-2 p{
+    color: grey;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.p1{
+    
+    padding-bottom: 20px;
+    
+}
+
+.p2{
+ 
+    padding-bottom:10px ;
+    
+}
+.spa{
+    color: grey;
+    font-size:50px ;
+    
+}
+
+.spa1{
+    color: forestgreen;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.img-c{
+    margin-left: 15px;
+    margin-right: 15px;
+    color:gray;
+    
+}
+
+.img-c img{
+    
+    height: 50px;
+    width: 50px;
+}
 .heading{
     text-align: center;
     margin-top: 30px;
-    color:rgb(252, 181, 0);
+    color:rgb(14, 14, 193);
 }
 
 .in-container{
@@ -10,29 +91,32 @@
     margin-top: 30px;
     text-align: center;
     width: 400px;
-    background-color:bisque;
-    /* border: 1px solid black; */
-    box-shadow: 0 0 6px 7px rgb(234, 192, 128);
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 0 6px 7px rgb(236, 236, 236);
     border-radius: 10px;
     margin-bottom: 50px;
    
 }
 
+
 .in-container button{
-    transform: scale(1);
-    transition: none;
+    padding:  10px 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: orange;
+    border: none;
 }
 .in-container input{
-    padding: 8px;
     border-radius: 5px;
     margin: 10px;
+    background-color: white;
     text-align: left;
-    background-color:antiquewhite;
+    border: 1px solid blue;
 }
 
 .review-output{
-    background-color: antiquewhite;
-    box-shadow: 0 0 4px 2px rgb(234, 196, 115);
+    background-color: white;
+    box-shadow: 0 0 8px 5px rgb(236, 236, 236);
     padding: 10px;
     border-radius: 10px;
     width: 300px;
@@ -42,6 +126,10 @@
 .review-output button{
     width: 70px;
     border-radius: 10px;
+    color: black;
+    background-color: orange;
+    border: none;
+    padding: 5px;
 }
 
 .review{
