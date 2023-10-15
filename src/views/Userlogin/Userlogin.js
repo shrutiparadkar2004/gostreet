@@ -46,7 +46,6 @@ const Userlogin = () => {
             username : username,
             password : password,
         }
-
         const temparray = [...datauser,obj]
         setDatauser(temparray)
     //    const storedata =  localStorage.setItem(JSON.stringify(temparray));
@@ -65,7 +64,7 @@ const Userlogin = () => {
         <>
         <Navbar/>
         <div className="cover">
-         <h1>Login</h1>
+         <h1 className="head">Login</h1>
 
          <input className="user-input" 
          type="text"
@@ -88,9 +87,6 @@ const Userlogin = () => {
           />
 
         <button className="login-btn"
-        onClick={()=>{
-            data()
-        }}
         >Login</button>
         <p className="text">Or login using</p>
 

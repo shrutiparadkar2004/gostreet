@@ -116,3 +116,6 @@ input:focus{
     width: 45px;
     transition: 0.5s;
 }
+.head{
+    font-weight: bold;
+}

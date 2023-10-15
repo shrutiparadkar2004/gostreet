@@ -60,17 +60,17 @@ function Blog() {
         <>
        <Navbar/>
        <div className='content'>
-         {
-            blog.map((blog,index)=>{
-                const {title,description,img}=blog;
+        {
+        blog.map((blog,index) => {
+        const {title,description,img}=blog;
                 
                 return (<Card 
                         key={index} 
                         title={title} 
-                         img={img} 
-                          description={description} />)
-                      })
-         }
+                        img={img} 
+                        description={description} />)
+        })
+        }
        </div>
      <Footer/>
 
