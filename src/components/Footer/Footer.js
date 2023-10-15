@@ -16,23 +16,23 @@ export default function Footer(){
           <div className="footer-links">
             <div  className="footer-links_div">
                 <h4>Company</h4>
-                <a href="/aboutus">
-                  <p >About Us</p>
+                <a href="/about">
+                  <p >About</p>
                 </a>
-                <a href="/ouroffering">
-                  <p>Our Offerings</p>
+                <a href="/services">
+                  <p>Services</p>
                 </a>
-                <a href="/newsroom">
-                  <p>Newsroom</p>
-                </a>
-                <a href="/investors">
-                  <p>Investors</p>
+                <a href="/review">
+                  <p>Review</p>
                 </a>
                 <a href="/blog">
                   <p>Blog</p>
                 </a>
-                <a href="/careers">
-                  <p>Careers</p>
+                <a href="/blog">
+                  <p>Blog</p>
+                </a>
+                <a href="/adminlogin">
+                  <p>Adminlogin</p>
                 </a>
               </div>
 

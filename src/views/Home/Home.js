@@ -2,8 +2,9 @@
    import Navbar from "./../../components/Navbar/Navbar";
    import Footer from "./../../components/Footer/Footer";
    import Servicecard from './../../components/Servicecard/Servicecard';
-   import servicedata from './../../configs/Service-Data.json';
    import homeservice from './../../configs/Home-Service-Data.json';
+   import Image from './../../views/Home/image/img1.jpg';
+   import Images from  './../../views/Home/image/call.png';
    
  
        import './Home.css';
@@ -35,7 +36,7 @@ import { element } from 'prop-types';
         </button>
       </div><br></br><br></br>
 
-         <h1 className='text-h'> Why passengers choose us</h1> <br></br><br></br>
+         <h1 className='text-h'><b> Why passengers choose us</b></h1> <br></br><br></br>
 
         <div class="d-flex justify-content-evenly flex-wrap">
         <div  className='card-n'>
@@ -88,7 +89,7 @@ import { element } from 'prop-types';
        
      const{name,image,price,symbol} = element;
      return (
-     <Servicecard
+         <Servicecard
           // key={index}
             name={name}
             image={image}
@@ -97,8 +98,23 @@ import { element } from 'prop-types';
           />
      )
        })
-     }
-
+     }<br></br><br></br>
+       
+        <div className='container-box'>
+         <div className='imgbox'>
+          <p className='wrt-text'><b>High</b><span className='com'> Comfort</span><br></br> <b>For Your </b>Family </p>
+          <div className='call'>
+            <span><img src={Images} alt=""  className='call-img'/>
+              Call Us 24/7 Anytime:<br></br>
+              <span className='contact'>+256 315 3215</span></span><br></br>
+              <button className='btn-contact'>CONTACT US</button>
+          </div>
+         </div>
+         <div>
+         <p><img src={Image} alt=""   className='img-girl'/></p>
+         </div>
+         </div>
+         
       
 
 </div> 

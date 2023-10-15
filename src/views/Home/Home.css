@@ -4,8 +4,8 @@ body{
 
 .text-h{
     text-align: center;
-    color:#ffc000;
-    font-size: 50px;
+    color:black;
+    font-size: 55px;
      padding: 7px 7px;  
 }
 
@@ -41,5 +41,59 @@ body{
 .text-heading{
     color: #ffc000;
 }
+.container-box{
+    height: 550px;
+    width:1330px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    color: white;
+}
+.imgbox{
+    height: 525px;
+    width:540px;
+    background-color:black;
+}
+  .imgbox-1{
+    height: 525px;
+    width:780px;
+    /* background-color:#ffc000; */
+  } 
+  .img-girl{
+    height:524px ;
+    width: 765px;
+  }
+  .wrt-text{
+    text-align: center;
+    font-size: 45px;
+    padding-top:50px ;
+    color: white;
+  }
+  .call{
+    text-align: center;
+    font-size: 25px;
+    margin-top:60px;
+  }
+  .call-img{
+    height: 40px;
+    width: 40px;
+  }
+  .com{
+    color: #ffc000;
+  }
+  .contact{
+    color: #ffc000;
+  }
+  .btn-contact{
+    background-color: #ffc000;
+    margin-top: 20px;
+    border-radius: 13px;
+  }
+  .btn-contact:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+    color:white;
+  }
 .merge{margin:10px;}
 
