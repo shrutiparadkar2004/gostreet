@@ -22,17 +22,15 @@ function Adminlogin() {
   console.log( username);
   console.log( password);
   console.log( data);
-
-  // const handleLogin = () => {
-  //   if ( username === 'admin' && password === 'password') {
-  //     console.log('Sign up Successfully');
-  //   }
-  //   else
-  //   {
-  //     alert(' Invalid Credentials. please try again.');
-  //   }
-  // };
   const sevedata = ()=> {
+    if(! username){
+     showToast('Name is Required','alert',4000);
+      return;
+    }
+    if(! password){
+      showToast('Password is Required','alert',4000);
+      return;
+    }
 const obj = {
    username: username,
    password: password,
@@ -41,6 +39,8 @@ const obj = {
  setData(temp)
  console.log(data)
  localStorage.setItem('admindata', JSON.stringify(temp));
+ 
+ showToast( ' Sign up successfull', 'success', 10000);
   }
 
 return (
