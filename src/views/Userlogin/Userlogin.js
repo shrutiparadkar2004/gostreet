@@ -1,28 +1,13 @@
-<<<<<<< HEAD
-import React , {useState} from "react";
-import "./Userlogin.css"
-=======
-
 import React , {useEffect, useState} from "react";
->>>>>>> 1017bbb424538761e8627cf07d600444175ad8a7
+
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-import React from 'react';
+//import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './Userlogin.css';
 
-
-      
-
-<<<<<<< HEAD
-//import React , {useState} from "react";
-
-<Navbar/>
-
-=======
->>>>>>> 1017bbb424538761e8627cf07d600444175ad8a7
 
 const Userlogin = () => {
 
