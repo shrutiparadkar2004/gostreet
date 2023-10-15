@@ -24,20 +24,6 @@
      margin-bottom: 100px;
 }
 
-.alt-login{
-    width: 85%;
-    height: 60px;
-    border-radius: 0.25em;
-    background-color: black;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-
-.google {background-image: url("https://www.flaticon.com/free-icon/google_2504739");}
-.facebook {background-image: url("https://www.flaticon.com/free-icon/facebook_733547");}
-
 /* input{
     border: none;
     background-color: rgb(229,226,226);
@@ -55,21 +41,27 @@ input:focus{
 .login-btn{
     width: 40%;
     height: 3em;
-    background-color: rgb(32,177,255);
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    border-radius: 0.25em;
+    border-radius: 10px;
     cursor: pointer;
+    color: white;
 }
 
 .login-btn:hover{
     transform: scale (1.25);
+    width: 43%;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 3.5em;
 }
 .text{
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: gray;
 }
@@ -93,4 +85,34 @@ input:focus{
     bottom: 0;
     transform: scale(1);
     transform: 1.5s;
+}
+.user-input{
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.icon2{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.alt-login{
+    display: flex;
+    transition: 0.5s;
+}
+.icon:hover{
+    width: 45px;
+    transition: 0.5s;
+}
+.icon2:hover{
+    width: 45px;
+    transition: 0.5s;
 }

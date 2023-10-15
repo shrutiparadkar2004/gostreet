@@ -15,6 +15,8 @@ import "./Userlogin.css"
 import "./Userlogin.css"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import image from './../../views/Userlogin/image/facebook.png';
+import images from './../../views/Userlogin/image/social.png';
 
 
 import ReactDOM from 'react-dom/client';
@@ -65,7 +67,8 @@ const Userlogin = () => {
         <div className="cover">
          <h1>Login</h1>
 
-         <input type="text"
+         <input className="user-input" 
+         type="text"
           placeholder="username" 
           value={username}
           onChange={(e)=>{
@@ -74,7 +77,8 @@ const Userlogin = () => {
           required
           />
 
-         <input type="password"
+         <input className="user-input" 
+          type="password"
           placeholder="password" 
           value={password}
           onChange={(e)=>{
@@ -91,14 +95,18 @@ const Userlogin = () => {
         <p className="text">Or login using</p>
 
         <div className="alt-login">
-           <div className="facebook"></div>
-           <div className="google"></div>
+           <div className="facebook">
+           <img src={image} alt=""  className='icon'/>
+           </div>
+           <div className="google">
+           <img src={images} alt=""  className='icon2'/>
+           </div>
         </div>
 
-        <div>
+        {/*<div>
             <h3>Login successfull!</h3>
             <p>Username & password valid</p>
-        </div>
+    </div>*/}
 
     </div>
 
