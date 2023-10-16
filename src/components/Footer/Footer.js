@@ -11,7 +11,7 @@ export default function Footer(){
         <>
         <div className="footer">
     
-          <h4 className="text-line"> GoStreet</h4>
+          <h4 className="text-line"> <img src="https://clipartcraft.com/images/car-logo-transparent-background-4.png" height="100px"/> GoStreet</h4>
          <div className= "footer section_padding">
           <div className="footer-links">
             <div  className="footer-links_div">
