@@ -83,3 +83,32 @@
 .mini-title{
   font-size: 40px;
 }
+
+
+
+
+/* .member-img{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 1px solid powderblue;
+ }
+ .member-name{
+  font-size: 25px;
+  text-align: center;
+ }
+ .member-info{
+  font-size: 20px;
+  text-align: center;
+ }
+ .team-info
+ {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+ /* border:2px solid black;*/
+  /* box-shadow: 0px 0px 8px rgb(199, 196, 196);
+  border-radius: 20px;  
+  background-image: linear-gradient(#f7f8f8,#d0dbeb);
+ } */ 
+  
