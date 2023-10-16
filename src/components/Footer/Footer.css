@@ -55,6 +55,7 @@
    }
   a:hover{
      color:#ffc000;
+     margin-left:10px ;
   }
 
   .socialmedia{
@@ -115,6 +116,7 @@
 .footer-below{
   flex-direction: column;
   justify-content: left;
+  
 }
 
 .footer-below-links{
@@ -132,6 +134,7 @@
 
 .footerbelow{
   padding-left:470px ;
+  font-size: 10px;
 }
 .text-name{
   text-align: center;
