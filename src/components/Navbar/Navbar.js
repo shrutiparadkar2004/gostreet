@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export default function Navbar(){
     return(<>
        <div>
-       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary margin">
   <div class="container-fluid  nav-color">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
