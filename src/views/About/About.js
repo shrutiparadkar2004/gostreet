@@ -104,12 +104,28 @@ const About = () => {
           })
         }
       </section>
+
+
+      {/* <div class="container-about-team">
+        
+      <div class="team-info">
+            <img src="./Images/about/komaldp.jpg" height="150px" width="150px" class="member-img"/>
+            <h3 class="member-name">Komal Pawar</h3>
+            <p class="member-info">She is passionate student and she learn web development very well.</p>
+            <a href="callto:88058 03087"> <i class="fa-solid fa-phone" style="color:green; margin-left:30%; font-size: 18px;" ></i></a>
+            <a href="mailto:komalpawar20003@gmail.com? subject=subject text" ><i class="fa-solid fa-envelope" style="color:red; margin-left:5%; font-size: 18px;"></i></a>
+            <a href="https://www.instagram.com/surajshende_247"><i class="fa-brands fa-instagram" style="color:purple; margin-left:5%; font-size: 18px;"></i></a>
+            <a href="https://github.com/KomalPawar-29"><i class="fa-brands fa-github" style="margin-left:5%; font-size: 18px;"></i></a>
+        </div>
+
+        </div> */}
       <Footer/>
       {/* images section  
              <div className="our-service-rightside-img">
               <img src="https://www.enterpriseappstoday.com/wp-content/uploads/2023/08/Ridesharing-Industry-statistics.jpg" alt="aboutusIMg" />
             </div>
             */}
+            
     </>
   );
 };

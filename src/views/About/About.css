@@ -83,9 +83,41 @@
 .mini-title{
   font-size: 40px;
 }
+<<<<<<< HEAD
+
+
+
+
+/* .member-img{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 1px solid powderblue;
+ }
+ .member-name{
+  font-size: 25px;
+  text-align: center;
+ }
+ .member-info{
+  font-size: 20px;
+  text-align: center;
+ }
+ .team-info
+ {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+ /* border:2px solid black;*/
+  /* box-shadow: 0px 0px 8px rgb(199, 196, 196);
+  border-radius: 20px;  
+  background-image: linear-gradient(#f7f8f8,#d0dbeb);
+ } */ 
+  
+=======
 .card-about{
   width: 500px;
    box-shadow: 0 2px 20px 0 rgb(132, 130, 130);
    margin: 20px;
    padding: 20px;
 }
+>>>>>>> 19c32e995b1afc71e3a697b114689c555a7f109e
