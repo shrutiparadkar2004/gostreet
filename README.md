@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# GoStreet
+Github:https://github.com/Abhijeetkokat007/gostreet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo: https://gostreet.vercel.app/
 
-## Available Scripts
+ ### Description :
+GoStreen is an innovative online platform that operates in a similar fashion to Uber, but with a specific focus on environmentally conscious transportation solutions. This website offers a range of services and features designed to provide convenient and eco-friendly transportation options to its users. Here's a detailed description of GoStreen:
 
-In the project directory, you can run:
+<img src="./src/components/images/home.jpg" alt="home image"/>
 
-### `npm start`
+**1. Eco-Friendly Transportation**: GoStreen prioritizes environmental sustainability by offering a fleet of vehicles that are either electric, hybrid, or run on clean, renewable energy sources. This commitment to green transportation helps reduce carbon emissions and lowers the environmental impact of travel.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**2. Ride-Sharing:** Users can request rides through the GoStreen website or mobile app, connecting them with nearby drivers who own eco-friendly vehicles. This ride-sharing feature is similar to Uber's ride-hailing service, making it convenient for users to access transportation services.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**3. Driver Network:** GoStreen attracts a community of responsible and eco-conscious drivers who are committed to reducing their carbon footprint. Drivers undergo thorough screening and training to ensure a safe and reliable experience for passengers.
 
-### `npm test`
+**4. Mobile App:** The GoStreen mobile app is user-friendly and offers features such as real-time tracking, estimated arrival times, and secure payment options. It allows users to request rides, rate drivers, and manage their transportation needs conveniently from their smartphones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**5. Price Transparency:** GoStreen provides upfront pricing, so users know the cost of their ride before confirming the booking. This transparency ensures that users are not surprised by hidden fees or charges.
 
-### `npm run build`
+**6. Safety Measures:** Just like other ride-sharing platforms, GoStreen prioritizes safety. The app includes features like driver ratings, GPS tracking, and emergency assistance options to ensure passengers feel secure during their rides.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**7. Environmentally Conscious Brand:** GoStreen promotes its eco-friendly brand and mission to reduce the carbon footprint associated with transportation. Users can feel good about their choice to use a sustainable transportation option.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**8. Accessibility:** GoStreen is available in various cities and regions, making eco-friendly transportation accessible to a wide range of users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**9. Payment Options:** Users can pay for their rides through the app using various payment methods, including credit cards, mobile wallets, and other digital payment options, providing flexibility and convenience.
 
-### `npm run eject`
+**10. Commitment to Sustainability:** GoStreen is dedicated to sustainability and regularly updates its fleet to include the latest eco-friendly vehicles and technologies, contributing to a cleaner and greener environment.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Real Time Use :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+GoStreen can be used in various ways to meet your transportation needs while contributing to environmental.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<ul>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<li>  sustainability </li>
+<li> Daily Commuting  </li>
+<li> Airport Transportation  </li>
+<li> Errands and Shopping  </li>
+<li>  Special Occasions </li>
+<li>  Carpooling </li>
+<li>  Business Travel </li>
+<li> Late-Night Transportation  </li>
+<li> Tourist Exploration  </li>
+<li> Ride-Sharing for Events  </li>
+<li>  Reducing Personal Carbon Footprint </li>
+<li> Supporting Green Initiatives  </li>
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Contributors
+<a href="https://github.com/Abhijeetkokat007/gostreet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Abhijeetkokat007/gostreet" />
+</a>
 
-### Analyzing the Bundle Size
+Made with [contrib.rocks](https://contrib.rocks).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

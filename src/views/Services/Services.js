@@ -4,6 +4,7 @@ import Servicecard from './../../components/Servicecard/Servicecard';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
+
 import './Services.css';
 import { useState } from 'react';
 function Services() {
@@ -32,15 +33,17 @@ function Services() {
 <Navbar/>
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+        <div class="carousel-item">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_833/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png" class="d-block w-100" alt="..." />
+          </div>
+        <div class="carousel-item">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_778/v1677102595/assets/66/2853af-061f-4176-8c6b-f2ddef091599/original/UberIM_002309-%281%29.jpg" class="d-block w-100" alt="..." />
+          </div>
           <div class="carousel-item active">
             <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_805/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png" class="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_833/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_778/v1677102595/assets/66/2853af-061f-4176-8c6b-f2ddef091599/original/UberIM_002309-%281%29.jpg" class="d-block w-100" alt="..." />
-          </div>
+          
+          
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
