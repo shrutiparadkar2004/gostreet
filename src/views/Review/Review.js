@@ -19,6 +19,20 @@ export default function Home() {
       description: "It has been an awesome experience for me when I got to roam places like Dipor Bil, Kamakhya Temple, Umanadna temple and many more places. Before I started the journey I wasn't sure I would get chance to visit and these all beautiful places.",
       profession: "Senior Teacher, Bhopal",
       emoji:"⭐⭐⭐⭐⭐",
+    },
+    {
+      name: "Rahul",
+      title: "Ren Trip Gonna be my First Choice Forever",
+      description: "It has been an awesome experience for me when I got to roam places like Dipor Bil, Kamakhya Temple, Umanadna temple and many more places. Before I started the journey I wasn't sure I would get chance to visit and these all beautiful places.",
+      profession: "Senior Teacher, Bhopal",
+      emoji:"⭐⭐⭐⭐⭐",
+    },
+    {
+      name: "Nitish Kumar",
+      title: "Ren Trip Gonna be my First Choice Forever",
+      description: "It has been an awesome experience for me when I got to roam places like Dipor Bil, Kamakhya Temple, Umanadna temple and many more places. Before I started the journey I wasn't sure I would get chance to visit and these all beautiful places.",
+      profession: "Senior Teacher, Bhopal",
+      emoji:"⭐⭐⭐⭐⭐",
     }
   ])
 
@@ -148,7 +162,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className='customer-review'>
-        <h2>OVERALL CUSTOMER REVIEW</h2>
+        <h2 className='hed-1'>OVERALL CUSTOMER REVIEW</h2>
         <div className='c-r-1'>
           <div className='c-r-2'>
             <p children='p1'>Overall Customer <br />Satisfaction</p>

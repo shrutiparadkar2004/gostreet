@@ -5,14 +5,14 @@ export default function ContactCard({title, description, name, profession,emoji,
     return (
         <div className='contact-card'>
             <p>{title}</p>
-            <p>{description}</p>
+            <p className='descr'>{description}</p>
             <p>{name}</p>
             <p>{profession}</p>
             <p>{emoji}</p>
-            <span className='icon-delete-contact' 
+            {/* <span className='icon-delete-contact' 
             onClick={() => {
                 deleteContact(name)
-            }}>🗑️</span>
+            }}>🗑️</span> */}
             <span className='icon-edit-contact' 
             onClick={() => {
                 enableEditMode(index)

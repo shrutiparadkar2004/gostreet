@@ -25,7 +25,7 @@
 }
 
 .c-r{
-    background-color: rgb(140, 232, 140);
+    background-color: rgb(254, 245, 214);
     height: 100px;
     width: 400px;
     margin-top: 70px;
@@ -62,7 +62,7 @@
 }
 
 .spa1{
-    color: forestgreen;
+    color:  #ffc000;
     font-size: 50px;
     padding-left: 20px;
    
@@ -83,7 +83,7 @@
 .heading{
     text-align: center;
     margin: 30px;
-    color:rgb(14, 14, 193);
+    color:rgb(15, 15, 16);
 }
 
 .in-container{
@@ -146,7 +146,7 @@
 
 .app-body h2{
     text-align: center;
-    color: rgb(14, 14, 193);
+    color:  #ffc000;
     margin-bottom: 30px;
 }
 .add-contacts-container{
@@ -164,8 +164,10 @@
 .add-contacts-container input{
     display: block;
     width: 400px;
-    border: 1px solid blue;
+    height: 40px;
+    border: 2px solid  #ffc000;
     padding: 5px;
+    border-radius: 5px;
     margin: 20px;
 }
 
@@ -174,6 +176,17 @@
     background-color: black;
     color: white;
     padding: 10px;
-    border-radius: 10px;
-    margin-left: 180px;
+    border-radius: 5px;
+    text-align:center;
+    margin-left: 120px;
+    width: 200px;
+}
+.add-contacts-container button:hover{
+    background-color: #ffc000;
+    color: black;
+    
+}
+
+.hed-1{
+    color: black;
 }
