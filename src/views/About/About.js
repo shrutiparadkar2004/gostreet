@@ -1,12 +1,9 @@
 
-// import "./about.css";
-  //import Navbar from "./../../components/Navbar/Navbar";
-  //import Footer from "./../../components/Footer/Footer";
-
  import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
 import Navbar from "./../../components/Navbar/Navbar";
 import Footer from "./../../components/Footer/Footer";
+import AboutData from "./../../configs/about-data.json";
 
 import "./About.css";
 
@@ -92,6 +89,20 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        {
+          AboutData.map((data, i)=>{
+            const{title, info } = data
+
+            return(
+              <div className="card-about">
+                <h2> {title} </h2>
+                <p> {info} </p>
+              </div>
+
+            )
+          })
+        }
       </section>
 
 
