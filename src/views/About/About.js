@@ -3,15 +3,16 @@
   //import Navbar from "./../../components/Navbar/Navbar";
   //import Footer from "./../../components/Footer/Footer";
 
- import React, { useState } from "react";
+import React, { useState } from "react";
 import howToUseApp from "../../API/howToUse.js";
 import Navbar from "./../../components/Navbar/Navbar";
 import Footer from "./../../components/Footer/Footer";
 
 import "./About.css";
+      /*const About = () => {
+      const [aboutData] = useState(howToUseApp);*/
+      function About() {
 
-const About = () => {
-  const [aboutData] = useState(howToUseApp);
   return (
     <>
     <Navbar/>
@@ -32,7 +33,7 @@ const About = () => {
             <div className="our-services-list">
               <h1 className="main-heading">How to use the App?</h1>
 
-              {aboutData.map((curElem) => {
+              {howToUseApp.map((curElem) => {
                 const {id ,title, info } = curElem;
                 return (
                   <>
@@ -71,12 +72,12 @@ const About = () => {
             {/* 1section right side data  */}
             <div className="our-services-list">
               <h1 className="main-heading">Check the availability in your city...</h1>
-
-              {aboutData.map((curElem) => {
+        
+              {howToUseApp.map((curElem) => {
                 const {id ,title, info } = curElem;
                 return (
                   <>
-                    <div className="row our-services-info" key={id}>
+                    <div className="row our-services-info">
                       <div className="col-1 our-services-number">{id}</div>
                       <div className="col-10 our-services-data">
                         <h2>{title}</h2>
@@ -98,7 +99,8 @@ const About = () => {
              <div className="our-service-rightside-img">
               <img src="https://www.enterpriseappstoday.com/wp-content/uploads/2023/08/Ridesharing-Industry-statistics.jpg" alt="aboutusIMg" />
             </div>
-            */}
+      */}
+            
     </>
   );
 };
