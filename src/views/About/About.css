@@ -83,3 +83,9 @@
 .mini-title{
   font-size: 40px;
 }
+.card-about{
+  width: 500px;
+   box-shadow: 0 2px 20px 0 rgb(132, 130, 130);
+   margin: 20px;
+   padding: 20px;
+}
